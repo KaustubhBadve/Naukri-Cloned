@@ -1,5 +1,76 @@
 {
-  "jobs": [{}, {}, {}, {}, {}],
+  "jobs": [
+    {
+       
+      "id":1,
+      "Requirement": "Required fresher For Python developer(Knowledge of Django is advantage)",
+      "Company_name": "Samvaad consultancy services",
+      "experience": "0-1 Years",
+      "Salary": "3,00,000 -4,00,000 P.A.",
+      "Location": "Mumbai",
+      "Jd": "Basic knowledge with the Python & Django framework Working knowledge of MySQL , J query & Angular JSFair understanding of building APIs",
+      "Technology": "Python . CSS . HTML5 . MYSQL" ,
+      "rating":"4.1"
+
+      
+    },
+    { 
+      "id":3,
+      "Requirement": "Flutter Developer",
+      "Company_name": "PASHVI CONSULTANCY",
+      "Salary": "2,50,000 - 3,00,000",
+       "experience": "0 Years",
+      "Location": "Mumbai(Lower Parel)",
+      "Jd": "Basic knowledge of dart , flutter framework and creation of cross-platform application",
+      "Technology": "GIT . DART . FLUTTER DEVELOPMENT" ,
+      "rating":"3.1"
+    },
+    {
+      "id":2,
+      "Requirement": "Laravel Developer",
+      "Company_name": "Big Rattle Technologies",
+      "experience": "0-2 Years",
+      "Salary": "Not Disclosed",
+      "Location": "Mumbai, Andheri East",
+      "Jd": "PHP, Laravel, MySQL, HTML5, CSS3, JavaScript, AJAX/ Fetch, jQuery, Web services and APIs",
+      "Technology": "GIT . HTML5 . MVC . JQUERY"   ,
+      "rating":"4.3"
+    },
+    {
+      "id":6,
+      "Requirement": "React Native Developer",
+      "Company_name": "Nimap infotech",
+       "experience": "0 Years",
+      "Salary": "2,00,000-2,50,000",
+      "Location": "Mumbai",
+      "Jd": "You will be responsible for architecting and building cross platform applications in react-native, as well as coordinating with the team. Maintain standard coding.",
+      "Technology": "GIT . JavaScript . REACT . HTML5 . CSS"  ,
+      "rating":"4.1"
+    },
+    { 
+      "id":4,
+      "Requirement": "We Are Hiring For Java Developers || Location: Mumbai",
+      "Company_name": "Delta Technology",
+       "experience": "0-5 Years",
+      "Salary": "50,000 -3,00,000",
+      "Location": "Mumbai, Navi Mumbai, Mumbai (All Areas)",
+      "Jd": "Strong core server-side technologies experience (Java),Spring,Hibernate,and other common J2EE frameworks",
+      "Technology": "JAVA . MYSQL . JQUERY . API" ,
+      "rating":"4.1"
+    },
+    { 
+      "id":5,
+      "Requirement": "React Js Developer",
+      "Company_name": "TechHold",
+       "experience": "2 Years",
+      "Salary": "3,00,000 - 4,00,000",
+      "Location": "Pune",
+      "Jd": "You will be responsible for architecting and building cross platform applications in react-native, as well as coordinating with the team. Maintain standard coding.",
+      "Technology": "GIT . JavaScript . REACT . HTML5 . CSS" ,
+      "rating":"4.1"
+    }
+  ],
+
 
   "items": [{}, {}]
 }

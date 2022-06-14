@@ -1,13 +1,13 @@
 import './App.css';
-import JobRecomandation from './Components/JobsRecomndation/JobRecomandation';
+import Job from './Components/JobsRecomndation/Job';
 
 // use StyleSheet.module for css
 
 function App() {
   return (
-    <>
-     {/* <JobRecomandation/> */}
-    </>
+    <div className="App">
+     <Job/>
+    </div>
   );
 }
 
