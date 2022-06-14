@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import JobRecomandation from './Components/JobsRecomndation/JobRecomandation';
 
 // use StyleSheet.module for css
 
 function App() {
   return (
     <>
-     
+     {/* <JobRecomandation/> */}
     </>
   );
 }
