@@ -1,0 +1,21 @@
+.EducationPanes{
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    gap:10%;
+    text-align: left;
+}
+
+.rightEducationBox{
+    width: 80%;
+    text-align: left;
+}
+
+.EducationPanesUpper{
+    margin-top: 20%;
+    width: 300px;
+}
+
+.rightEducationFormDiv div{
+    margin-bottom: 2%;
+}

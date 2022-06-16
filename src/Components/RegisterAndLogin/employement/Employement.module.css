@@ -1,0 +1,20 @@
+.EmployementPanes{
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    gap:10%;
+    text-align: left;
+}
+
+.rightEmployementBox{
+    width: 80%;
+    text-align: left;
+}
+
+.EmployementPanesUpper{
+    margin-top: 20%;
+}
+
+.rightEmployementFormDiv div{
+    margin-bottom: 2%;
+}
