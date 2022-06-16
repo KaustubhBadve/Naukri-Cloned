@@ -1,0 +1,432 @@
+.navbar {
+  height: 50px;
+  background-color: antiquewhite;
+}
+.border {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.border > div {
+  width: 45%;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid rgb(168, 157, 157);
+  cursor: pointer;
+}
+.swapboxmain {
+  /* width: 350px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+.data {
+  height: 250px;
+  width: 350px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 120px;
+  left: 80%;
+}
+.Swapbox11{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.buynow{
+    background-color: #fb641b;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    width: 230px;
+    font-size: 20px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.price{
+    font-size: 23px;
+    letter-spacing: 0.5;
+    /* line-height: 50px; */
+}
+.Cutprice{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.Offprice{
+    font-size: 17px;
+    margin-left: 10px;
+}
+.belowprice{
+    font-size: 13px;
+    color: rgb(168, 155, 155);
+    text-align: center;
+    margin-left: -80px;
+}
+.A{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    color: rgb(168, 155, 155);
+}
+.topofferyellow{
+    background-color:#fec923;
+    height: 55px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+.blueback{
+background-image: url("https://image.shutterstock.com/image-vector/dark-blue-vector-pattern-triangular-260nw-589559108.jpg");
+background-size: cover;
+background-position-y: -210px;
+height: 370px;
+}
+.bigger{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 30px;
+    letter-spacing: 0.4px;
+}
+.bigger1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 30px;
+    letter-spacing: 0.4px;
+    margin-bottom: 30px;
+}
+
+.highlight{
+    background-color: #0074ad;
+    color: white;
+}
+.table{
+    margin: auto;
+    width: 60%;
+    position: absolute;
+    top: 400px;
+    left: 20%;
+    background-color: white;
+}
+table{
+    border: 1px solid rgb(206, 195, 195);
+}
+.benefits{
+    width: 900px;
+    padding-left: 10px;
+    text-align: left;
+}
+th{
+    width: 180px;
+}
+thead{
+    height: 50px;
+    font-size: 18px;
+    border-bottom: 2px solid grey;
+}
+td{
+    font-size: 25px;
+    font-weight: 450;
+    padding-top: 25px;
+    padding-left: 5px;
+    text-align: center;
+}
+.benefitTd{
+    font-size: 19px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tdvoilet{
+    background-color: #bbd7ef;
+}
+.tdgreen{
+    background-color: #e7f1f9;
+}
+.serviceincluded{
+    margin-top: 600px;
+    text-align: center;
+    font-size: 30px;
+}
+.switchService{
+    display: flex;
+    width: 43%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 20px;
+    color: grey;
+    margin-top: 30px;
+}
+.switchService p{
+    font-size: 16px;
+}
+.switchService div{
+    cursor: pointer;
+}
+.Resumemain{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    padding: 6px;
+    margin-top: 20px;
+}
+.Resumesub1{
+    display: flex;
+   gap: 20px;
+   margin-top: 24px;
+   letter-spacing: 0.4px;
+}
+.resumesub2{
+    margin-left: 37px;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+    margin-top: 10px;
+}
+.ticksymbol{
+    color: #4a90e2;
+}
+.click,.click1,.click2{
+    padding-bottom: 20px;
+    border-bottom: 5px solid #4a90e2;
+    color: black;
+    font-weight: 600;
+}
+.AdditionalInfo{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+.Addinfo1{
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    color: rgb(73, 71, 71);
+    width: 100%;
+    border: 1px solid rgb(233, 225, 225);
+    height: 130px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.Addinfo1Click{
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(10, 0, 0);
+    width: 100%;
+    border: 1px solid rgb(233, 225, 225);
+    height: 130px;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border-left: 5px solid #0074ad;
+}
+.additinalinfomain{
+    border: 1px solid rgb(231, 225, 225);
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    height: 395px;
+}
+.additinalinfo1{
+    width: 25%;
+}
+.Selectplan{
+    font-size: 15px;
+    text-align: left;
+    width: 75%;
+    padding-left: 35px;
+    line-height: 33px;
+    height: 100%;
+    overflow: scroll;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.Selectplan::-webkit-scrollbar {
+    display: none;
+    }
+.headingSelectplan{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.addinfopara{
+    margin-bottom: 20px;
+}
+.stickynav{
+    border: 1px solid red;
+    height: 50px;
+    position: sticky;
+    top: 5%;
+    left: -50%;
+}
+
+
+
+
+@media all and (min-width: 401px) and (max-width: 720px){
+
+    .topofferyellow{
+        width: 100%;
+        font-size: 15px;
+    }
+    .blueback{
+        background-image: none
+        }
+        .data {
+            height: 150px;
+            width: 350px;
+            background-color: aliceblue;
+            position: absolute;
+            top: 120px;
+            left: 10%;
+          }
+          .buynow{
+              width: 130px;
+              font-size: 15px;
+              height: 30px;
+              margin-left: 80px;
+              margin-top: 15px;
+          }
+          .price{
+              font-size: 20px;
+              letter-spacing: 0;
+              line-height: 30px;
+          }
+          .Cutprice{
+              font-size: 15px;
+          }
+          .Offprice{
+              font-size: 15px;
+          }
+          .belowprice{
+              font-size: 14px;
+              margin-left: -50px;
+          }
+          .table{
+            width: 100%;
+            position: absolute;
+            top: 350px;
+            left: 0%;
+        }
+        .benefits{
+            width: 500px;
+            padding-left: 10px;
+            text-align: left;
+        }
+        th{
+            width: 180px;
+        }
+        thead{
+            height: 50px;
+            font-size: 15px;
+        }
+        td{
+            font-size: 20px;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        .benefitTd{
+            font-size: 13px;
+            padding-left: 5px;
+        }    
+        .serviceincluded{
+            margin-top: 480px;
+            font-size: 22px;
+        }
+        .switchService{
+            width: 100%;
+            font-size: 15px;
+            margin-top: 15px;
+        }
+        .switchService p{
+            font-size: 14px;
+     
+        }
+        .Resumemain{
+            display: flex;
+            width: 100%;
+            font-size: 13px;
+            padding: 0px;
+            margin-top: 10px;
+        }
+        .Resumesub1{
+            display: flex;
+           gap: 10px;
+           margin-top: 10px;
+           letter-spacing: 0.4px;
+        }
+        .resumesub2{
+            margin-left: 10px;
+            text-align: left;
+            font-size: 12px;
+            margin-top: 5px;
+        }   
+        .AdditionalInfo{
+            margin-top: 10px;
+            text-align: center;
+            font-size: 22px;
+        }
+        .Addinfo1{
+            display: flex;
+            font-size: 12px;
+            height: 130px;
+        }
+        .Addinfo1Click{
+            display: flex;
+            font-size: 23px;
+            align-items: center;
+            font-weight: 600;
+            height: 130px;
+        }
+        .additinalinfomain{
+            width: 100%;
+            margin-top: 20px;
+            height: 395px;
+        }
+        .additinalinfo1{
+            width: 20%;
+        }
+        .Selectplan{
+            font-size: 13px;
+            width: 75%;
+            padding-left: 10px;
+            line-height: 22px;
+            height: 100%;
+            overflow: scroll;
+            padding-right: 5px;
+            padding-top: 20px;
+        }
+        .headingSelectplan{
+            font-size: 21px;
+            margin-bottom: 20px;
+        }
+        .addinfopara{
+            margin-bottom: 20px;
+        }
+        .Addinfo1Click{
+            display:flex;
+            flex-direction: column;
+            font-size: 14px;
+            font-weight: 400;
+            border-left: 2px solid #0074ad;
+        }
+        .headingSelectplan{
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+}
