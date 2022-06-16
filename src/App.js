@@ -5,7 +5,11 @@ import Checkout from './Components/CheckoutfrmSubscription/checkout';
 import CheckoutCardDetails from './Components/CheckoutfrmSubscription/CheckoutCardDetails';
 import Otp from './Components/CheckoutfrmSubscription/Otp';
 import Confirmation from './Components/CheckoutfrmSubscription/Confirmation';
-
+import LoginPage from "../src/Components/RegisterAndLogin/login/LoginPage";
+import RegisterPage from "../src/Components/RegisterAndLogin/register/RegisterPage";
+import OtpPage from "../src/Components/RegisterAndLogin/otp/OtpPage"
+import Employement from "../src/Components/RegisterAndLogin/employement/Employement"
+import Education from "../src/Components/RegisterAndLogin/education/Education"
 
 // use StyleSheet.module for css
 
@@ -18,6 +22,13 @@ function App() {
         <Route path='/payment' element={<CheckoutCardDetails/>}></Route>
         <Route path='/CaptureOtp' element={<Otp/>}></Route>
         <Route path='/confirmation' element={<Confirmation/>}></Route>
+        {/* REGISTRATION AND LOGIN */}
+        <Route path="/login" element={<LoginPage />} />
+				<Route path="/register" element={<RegisterPage />} />
+				<Route path="/otp" element={<OtpPage />} />
+				<Route path="/employement" element={<Employement />} />
+				<Route path="/education" element={<Education />} />
+        {/* REGISTRATION AND LOGIN */}
       </Routes>
     </div>
   );
