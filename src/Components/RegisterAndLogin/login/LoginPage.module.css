@@ -51,3 +51,13 @@
 .formLogin{
     margin: auto;
 }
+
+.googleDividerDiv{
+    
+    text-align: center;
+}
+
+.GoogleButton{
+    width:max-content;
+    margin: auto;
+}

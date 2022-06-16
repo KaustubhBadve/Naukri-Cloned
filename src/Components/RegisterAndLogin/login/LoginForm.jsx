@@ -93,15 +93,15 @@ const LoginForm = () => {
 					</div>
 
 					<div>
-						<Button colorScheme="blue" variant="link" size="sm">
+						<Button colorScheme="blue" variant="link" size="sm" className={style.GoogleButton}>
 							Use OTP to login
 						</Button>
 					</div>
 
-					<div>
+					<div className={style.googleDividerDiv}>
 						<Divider />
 						<div className={style.GoogleDividerORLogin}>OR</div>
-						<Button
+						<Button className={style.GoogleButton}
 							leftIcon={<FcGoogle />}
 							colorScheme="blue"
 							variant="outline"
