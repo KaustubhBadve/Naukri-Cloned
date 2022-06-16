@@ -9,6 +9,8 @@ import SelectPlan from './SelectPlan'
 import style from './Subscription.module.css'
 import Swapbox1 from './Swapbox1'
 import Swapbox2 from './Swapbox2'
+import WithSubnavigation from '../HomePageNavbar/Navbar'
+import Footer from '../HomePageFooter/Footer'
 
 
 const Subscription = () => {
@@ -61,7 +63,7 @@ const Subscription = () => {
      {/* <Stickynavbar/> */}
      {/* Top Offer Section */}
 
-      <div className={style.navbar}>Navbar</div>
+      <div><WithSubnavigation/></div>
       <div className={style.topofferyellow}>
         <p>Flat <b>20% OFF</b>  on All Services</p>
         <p>Promo code FightCorona20, Valid till 30-Jun-2022</p>
@@ -224,6 +226,8 @@ const Subscription = () => {
       </div>
      
       </div>
+
+      <Footer/>
     </div>
   )
 }
