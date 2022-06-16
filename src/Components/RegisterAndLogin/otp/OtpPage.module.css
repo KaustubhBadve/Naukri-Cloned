@@ -1,0 +1,15 @@
+.otpPanes {
+	display: flex;
+	gap: 100px;
+	margin: 10%;
+	margin-bottom: 10px;
+}
+
+.otpRightPane {
+	text-align: left;
+    width: 80%;
+}
+
+.otpRightPaneDiv{
+    margin-bottom: 200px;
+}
