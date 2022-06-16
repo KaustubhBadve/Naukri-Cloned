@@ -1,0 +1,155 @@
+.main{
+    height: 725px;
+    width: 100%;
+    background-color: #2e3339;
+}
+.footer_content{
+    width: 63%;
+    height: 83.5%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bottomdiv{
+    width: 100%;
+    height: 17.5%;
+    background-color: #fff;
+}
+.footerA{
+    height: 100%;
+    width: 23%;
+    color: #d8d7db;
+    /* padding-top: 10px; */
+}
+.iconDiv{
+    margin-top: 15px;
+    height: 150px;
+    width: 80%;
+}
+.iconDiv> h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+.logo{
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 83%;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.logoD{
+    height: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.followUs{
+    margin-top: 25px;
+}
+.sliderLogo{
+    height: 70%;
+    width: 100%;
+    padding: 20px;
+    
+}
+.logoSilder{
+    width: 55%;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.sliderLogo >p{
+    color: rgb(170, 158, 158);
+    font-weight: 300;
+    
+}
+.bottomFooter{
+    height: 30%;
+    width: 100%;
+    background-color: #e2e2e2;
+    padding: 10px;
+}
+.bottomFooter > p{
+    text-align: center;
+    font-size: 13px;
+    word-spacing: 1px;
+}
+
+@media all and (min-width:421px) and (max-width:720px) {
+    .main{
+        height: 640px;
+        width: 100%;
+        background-color: #2e3339;
+    }
+    .footer_content{
+        width: 100%;
+        height: 95%;
+        padding: 10px;
+        margin:auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bottomdiv{
+        width: 100%;
+        height: 10%;
+        background-color: #fff;
+    }
+
+    .footerA{
+        height: 80%;
+        width: 18%;
+        color: #d8d7db;
+        /* padding-top: 10px; */
+    }
+    .followUs{
+        margin-top: 0px;
+    }
+   
+    .iconDiv> h3{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .logoD{
+        height: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .sliderLogo{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .logoSilder{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+    .sliderLogo >p{
+        font-size: 10px;
+        color: rgb(170, 158, 158);
+        width: 150px;
+        
+    }
+
+    .bottomFooter{
+        height: 15%;
+        width: 100%;
+        background-color: #e2e2e2;
+        /* padding: 10px; */
+    }
+    .bottomFooter > p{
+        text-align: center;
+        font-size: 13px;
+        word-spacing: 1px;
+    }
+}

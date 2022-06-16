@@ -1,0 +1,33 @@
+.info{
+    margin-top: 5px;
+    display: grid;
+    gap: 7px;
+    font-size: 12px;
+    color: #9a9ea0;
+    letter-spacing: 0.5;
+    font-weight: 600;
+    cursor: pointer;
+}
+.divhead{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.info > p:hover{
+    color: #d8d7db;
+}
+
+@media all and (min-width:421px) and (max-width:720px) {
+    .info{
+        display: grid;
+        gap: 2px;
+        font-size: 10px;
+        color: #9a9ea0;
+        cursor: pointer;
+    }
+    .divhead{
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 2px;
+    }
+}
