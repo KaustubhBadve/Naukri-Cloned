@@ -6,7 +6,7 @@ import {
 import axios from "axios";
 
 export const registerAPI = (creds) => (dispatch) => {
-	dispatch({ type: REGISTER_LOADING });
+	dispatch({ type: REGISTER_LOADING});
 
 	let data = {
 		name: creds.name,
@@ -16,7 +16,7 @@ export const registerAPI = (creds) => (dispatch) => {
 		mobile: creds.mobile,
 		description: creds.description,
 	};
-	console.log(data);
+	// console.log(data);
 
 	data=JSON.stringify(data)
 

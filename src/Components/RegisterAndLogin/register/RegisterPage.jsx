@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import style from "./Register.module.css";
-import { FaSuitcase,FaBook } from "react-icons/fa";
+import { FaSuitcase, FaBook } from "react-icons/fa";
 // import { GiSchoolBag } from "react-icons/gi";
 import { RiWhatsappFill } from "react-icons/ri";
 import { FcGoogle } from "react-icons/fc";
@@ -83,7 +83,7 @@ const RegisterPage = () => {
 							<form action="submit" onSubmit={handleRegFormSubmit}>
 								<FormControl className={style.rightRegisterForm}>
 									<div>
-										<FormLabel htmlFor="fullName">Full Name</FormLabel>
+										<FormLabel htmlFor="fullName">First Name</FormLabel>
 										<Input
 											id="fullName"
 											type="text"
