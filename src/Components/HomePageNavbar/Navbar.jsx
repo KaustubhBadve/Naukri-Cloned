@@ -136,14 +136,7 @@ const NAV_ITEMS = [
       },
     ],
   },
-  // {
-  //   label: "SERVICE",
-  //   href: "#",
-  // },
-  // {
-  //   label: "MORE",
-  //   href: "#",
-  // },
+  
 ];
 
 export default function WithSubnavigation() {

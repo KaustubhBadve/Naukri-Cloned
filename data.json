@@ -1,76 +1,117 @@
 {
   "jobs": [
     {
-       
-      "id":1,
+      "id": 1,
       "Requirement": "Required fresher For Python developer(Knowledge of Django is advantage)",
       "Company_name": "Samvaad consultancy services",
-      "experience": "0-1 Years",
+      "experience": "0-1 Yrs",
       "Salary": "3,00,000 -4,00,000 P.A.",
       "Location": "Mumbai",
       "Jd": "Basic knowledge with the Python & Django framework Working knowledge of MySQL , J query & Angular JSFair understanding of building APIs",
-      "Technology": "Python . CSS . HTML5 . MYSQL" ,
-      "rating":"4.1"
-
-      
+      "Technology": "Python . CSS . HTML5 . MYSQL",
+      "rating": "4.1"
     },
-    { 
-      "id":3,
+    {
+      "id": 3,
       "Requirement": "Flutter Developer",
       "Company_name": "PASHVI CONSULTANCY",
       "Salary": "2,50,000 - 3,00,000",
-       "experience": "0 Years",
+      "experience": "0 Yrs",
       "Location": "Mumbai(Lower Parel)",
-      "Jd": "Basic knowledge of dart , flutter framework and creation of cross-platform application",
-      "Technology": "GIT . DART . FLUTTER DEVELOPMENT" ,
-      "rating":"3.1"
+      "Jd": "Basic knowledge of dart , flutter framework and creation of cross-platform application. Developing integrations with common APIs. Mindset to take up project individually.NOTE: We have 3 months internship + 2 Yrs bond and work from office only.",
+      "Technology": "GIT . DART . FLUTTER DEVELOPMENT",
+      "rating": "3.1"
     },
     {
-      "id":2,
+      "id": 2,
       "Requirement": "Laravel Developer",
       "Company_name": "Big Rattle Technologies",
-      "experience": "0-2 Years",
+      "experience": "0-2 Yrs",
       "Salary": "Not Disclosed",
       "Location": "Mumbai, Andheri East",
-      "Jd": "PHP, Laravel, MySQL, HTML5, CSS3, JavaScript, AJAX/ Fetch, jQuery, Web services and APIs",
-      "Technology": "GIT . HTML5 . MVC . JQUERY"   ,
-      "rating":"4.3"
+      "Jd": " Technical certification fee reimbursements . PHP, Laravel, MySQL, HTML5, CSS3, JavaScript, AJAX/ Fetch, jQuery, Web services and APIs",
+      "Technology": "GIT . HTML5 . MVC . JQUERY",
+      "rating": "4.3"
     },
     {
-      "id":6,
+      "id": 6,
       "Requirement": "React Native Developer",
       "Company_name": "Nimap infotech",
-       "experience": "0 Years",
+      "experience": "0 Yrs",
       "Salary": "2,00,000-2,50,000",
       "Location": "Mumbai",
       "Jd": "You will be responsible for architecting and building cross platform applications in react-native, as well as coordinating with the team. Maintain standard coding.",
-      "Technology": "GIT . JavaScript . REACT . HTML5 . CSS"  ,
-      "rating":"4.1"
+      "Technology": "GIT . JavaScript . REACT . HTML5 . CSS",
+      "rating": "4.1"
     },
-    { 
-      "id":4,
+    {
+      "id": 4,
       "Requirement": "We Are Hiring For Java Developers || Location: Mumbai",
       "Company_name": "Delta Technology",
-       "experience": "0-5 Years",
+      "experience": "0-5 Yrs",
       "Salary": "50,000 -3,00,000",
-      "Location": "Mumbai, Navi Mumbai, Mumbai (All Areas)",
+      "Location": "Mumbai(All Areas)",
       "Jd": "Strong core server-side technologies experience (Java),Spring,Hibernate,and other common J2EE frameworks",
-      "Technology": "JAVA . MYSQL . JQUERY . API" ,
-      "rating":"4.1"
+      "Technology": "JAVA . MYSQL . JQUERY . API",
+      "rating": "4.1"
     },
-    { 
-      "id":5,
+    {
+      "id": 5,
       "Requirement": "React Js Developer",
       "Company_name": "TechHold",
-       "experience": "2 Years",
+      "experience": "2 Yrs",
       "Salary": "3,00,000 - 4,00,000",
       "Location": "Pune",
       "Jd": "You will be responsible for architecting and building cross platform applications in react-native, as well as coordinating with the team. Maintain standard coding.",
-      "Technology": "GIT . JavaScript . REACT . HTML5 . CSS" ,
-      "rating":"4.1"
+      "Technology": "GIT . JavaScript . REACT . HTML5 . CSS",
+      "rating": "4.1"
+    },
+    {
+      "id": 7,
+      "Requirement": "Training and Placement in Python, HTML, CSS, JavaScript",
+      "Company_name": "WHITEHR CONSULTANCY SERVICES",
+      "experience": "0 Yrs",
+      "Salary": "Not Disclosed",
+      "Location": "Hyderabad, Bangalore",
+      "Jd": " Python,Front End Developer(HTML ,CSS, JAVASCRIPT, BOOTSTRAP, Internship, Training And Placement Qualification: Any Graduate year of Passout:2016/17/18/19/20 Those who want to start a career in ITFor more Details call or whatsapp:808894",
+      "Technology": "JavaScript . Python . Django . HTML5 . CSS",
+      "rating": "4.1"
+    },
+    {
+      "id": 8,
+      "Requirement": "PHP Developer",
+      "Company_name": "Big Rattle Technologies",
+      "experience": "0-3 Yrs",
+      "Salary": "2,50,000 - 3,75,000 P.A",
+      "Location": "Mumbai",
+      "Jd": " Opening for coders having knowledge of PHP, Laravel/Codeigniter, Jquery, Mysql, Ajax & basic Linux. The candidate should have good English writing skills",
+      "Technology": "Laravel . Core Php . MVC . JQUERY",
+      "rating": "4.3"
+    },
+
+    {
+      "id": 9,
+      "Requirement": " Web Application Developer",
+      "Company_name": "Collective S Software Pvt Ltd",
+      "experience": "0-1 Yrs",
+      "Salary": "90,000 - 1,25,000 P.A",
+      "Location": "Mumbai,pune",
+      "Jd": " Opening for coders having knowledge of PHP, Laravel/Codeigniter, Jquery, Mysql, Ajax & basic Linux. The candidate should have good English writing skills",
+      "Technology": "Laravel . Core Php . MVC . JQUERY",
+      "rating": "4.3"
+    },
+    {
+      "id": 10,
+      "Requirement": " Node Js Backend Developer",
+      "Company_name": "INTERNET FOLKS PRIVATE LIMITED",
+      "experience": "0-1 Yrs",
+      "Salary": "1,00,000 - 3,50,000 P.A",
+      "Location": "Remote(All India)",
+      "Jd": "Creating scalable APIs using NodeJS and Express.js.Working with SQL/NoSQL Databases, Cache, PubSub and other System Design components",
+      "Technology": "Node js . Expreess Js . Javascript . API",
+      "rating": "4.3"
     }
   ],
-
 
   "items": [{}, {}]
 }

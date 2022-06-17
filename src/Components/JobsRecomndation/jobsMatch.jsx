@@ -18,15 +18,15 @@ import {
   Stack,
   Radio,
 } from "@chakra-ui/react";
-
+import { AddIcon } from "@chakra-ui/icons";
 
 const JobsMatch = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = useRef();
   return (
     <div>
-      <span ref={btnRef}  onClick={onOpen}>
-        +
+      <span ref={btnRef} onClick={onOpen}>
+        <AddIcon w={3} h={4} />
       </span>
 
       <Drawer
@@ -39,7 +39,7 @@ const JobsMatch = () => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader size='xs'>Manage your Job preferences</DrawerHeader>
+          <DrawerHeader size="xs">Manage your Job preferences</DrawerHeader>
 
           <DrawerBody>
             <Box mt={5}>
@@ -50,16 +50,14 @@ const JobsMatch = () => {
             </Box>
 
             <Box mt={8}>
-            <FormLabel htmlFor="username">
-                Preferred Salary
-              </FormLabel>
+              <FormLabel htmlFor="username">Preferred Salary</FormLabel>
               <RadioGroup defaultValue="1">
                 <Stack spacing={5} direction="row">
                   <Radio colorScheme="blue" value="1">
-                   Indian Rupees
+                    Indian Rupees
                   </Radio>
                   <Radio colorScheme="blue" value="2">
-                   US dollars
+                    US dollars
                   </Radio>
                 </Stack>
               </RadioGroup>{" "}
@@ -70,23 +68,23 @@ const JobsMatch = () => {
                 <Box spacing={3}>
                   {" "}
                   <Select id="owner" defaultValue="segun">
-                    <option >0 Lac</option>
-                    <option >1 Lac</option>
-                    <option >2 Lacs</option>
-                    <option >3 Lacs</option>
-                    <option >4 Lacs</option>
-                    <option >5 Lacs</option>
+                    <option>0 Lac</option>
+                    <option>1 Lac</option>
+                    <option>2 Lacs</option>
+                    <option>3 Lacs</option>
+                    <option>4 Lacs</option>
+                    <option>5 Lacs</option>
                   </Select>
                 </Box>
                 <Box ml={5}>
                   {" "}
                   <Select id="owner" defaultValue="segun">
-                  <option >0 Thousand</option>
-                    <option >10 Thousand</option>
-                    <option >20 Thousand</option>
-                    <option >30 Thousand</option>
-                    <option >40 Thousand</option>
-                    <option >50 Thousand</option>
+                    <option>0 Thousand</option>
+                    <option>10 Thousand</option>
+                    <option>20 Thousand</option>
+                    <option>30 Thousand</option>
+                    <option>40 Thousand</option>
+                    <option>50 Thousand</option>
                   </Select>
                 </Box>
               </Flex>
@@ -96,7 +94,7 @@ const JobsMatch = () => {
               <FormLabel htmlFor="username">
                 Preferred Work Location (max 10)
               </FormLabel>
-              <Input  placeholder="Enter Preferred Job Loaction " />
+              <Input placeholder="Enter Preferred Job Loaction " />
             </Box>
           </DrawerBody>
 
