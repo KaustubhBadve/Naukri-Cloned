@@ -10,6 +10,7 @@ import RegisterPage from "../src/Components/RegisterAndLogin/register/RegisterPa
 import OtpPage from "../src/Components/RegisterAndLogin/otp/OtpPage"
 import Employement from "../src/Components/RegisterAndLogin/employement/Employement"
 import Education from "../src/Components/RegisterAndLogin/education/Education"
+import Body from './Components/HomePageBody/Body';
 
 // use StyleSheet.module for css
 
@@ -29,6 +30,7 @@ function App() {
 				<Route path="/employement" element={<Employement />} />
 				<Route path="/education" element={<Education />} />
         {/* REGISTRATION AND LOGIN */}
+        <Route path="/home" element={<Body/>}/>
       </Routes>
     </div>
   );

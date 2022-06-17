@@ -154,7 +154,7 @@ export default function WithSubnavigation() {
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
 
   return (
-    <Box w="100%" border="1px solid gray">
+    <Box w="100%" border="none">
       <Flex
         bg={useColorModeValue("white", "gray.800")}
         color={useColorModeValue("gray.600", "white")}
