@@ -1,0 +1,21 @@
+
+
+@media all and (min-width:401px) and (max-width:721px) {
+    .recomended{
+        width: 100%;
+        height: 400px;
+        padding: none;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .head{
+        font-size: 7px;
+        padding: 1px;
+    }
+    .head >p{
+        font-size: 10px;
+    }
+    .textDiv{
+       font-size: 10px;
+    }
+}

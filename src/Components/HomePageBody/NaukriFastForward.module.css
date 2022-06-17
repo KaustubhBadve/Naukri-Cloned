@@ -1,0 +1,8 @@
+
+
+
+@media all and (min-width:401px) and (max-width:721px) {
+    .fastforward{
+        display: none;
+    }
+}

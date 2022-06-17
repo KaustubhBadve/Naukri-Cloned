@@ -2,10 +2,13 @@ import { Box, Flex, HStack, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js";
 import "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js";
+import styles from "./Jobs.module.css"
+
 
 const Jobs = () => {
   return (
     <Box
+    className={styles.recomended}
       w={"100%"}
       h="350px"
       boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
@@ -16,14 +19,15 @@ const Jobs = () => {
         53 New Recommended Job(s)
       </Text>
       <hr />
-      <Box w={"100%"} p="6">
-        <Text fontSize={"15px"} color="gray.700" fontWeight={"bold"}>
+      <Box className={styles.head} w={"100%"} p="6" >
+        <Text  fontSize={"15px"} color="gray.700" fontWeight={"bold"}>
           Work@Home/Freelancing Job/Data Entry Job/Part Time Job/Computer Work
         </Text>
         <Text fontSize={"xs"} fontWeight="medium" color={"gray.600"}>
           SRENIX STAR PRIVATE LIMITED
         </Text>
       </Box>
+      <div className={styles.textDiv}>
       <Flex p={"2"} gap="10">
         <HStack color={"gray.600"}>
           <ion-icon name="briefcase-outline"></ion-icon>
@@ -43,7 +47,7 @@ const Jobs = () => {
       </Flex>
       <Flex mt={"-2"} p={"2"} gap="4" alignItems={"center"} color={"gray.600"}>
         <ion-icon name="reader-outline"></ion-icon>
-        <Text fontSize={"14px"}>
+        <Text fontSize={"14px"} display={{}}>
           Urgent Hiring for Computer/Data Entry Operator Basic Typing speed,
           Basic Computer...
         </Text>
@@ -56,6 +60,7 @@ const Jobs = () => {
         <Text pr={'2'} color={"gray.600"} fontSize={'xs'}>Posted 1 Day Ago</Text>
       </Flex>
       <Link pr={'4'} color='twitter.500' float={'right'}>View All</Link>
+      </div>
     </Box>
   );
 };

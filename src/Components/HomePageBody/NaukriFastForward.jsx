@@ -1,9 +1,10 @@
 import { Box, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
+import styles from "./NaukriFastForward.module.css"
 
 const NaukriFastForward = () => {
   return (
-    <Box w="100%" h="430px" mt={"6"} p="6" bg={'#fff'} boxShadow='dark-lg'>
+    <Box w="100%" h="430px" mt={"6"} p="6" bg={'#fff'}  boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" className={styles.fastforward}>
       <Image h={'10'} src="https://static.naukimg.com/s/4/123/i/ffLogo.png" />
       <Text mt={'6'} fontWeight='bold'>Naukri Services you might be interested in</Text>
       <Text mt={'6'} fontWeight='bold'>Be a Priority Applicant</Text>

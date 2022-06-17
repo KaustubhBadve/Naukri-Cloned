@@ -29,12 +29,12 @@
     justify-content: space-between;
 }
 .box1{
-    height: 100%;
+    height: max-content;
     width: 64%;
     /* border: 1px solid blue; */
 }
 .box2{
-    height: 100%;
+    height: max-content;
     width: 34%;
     /* border: 1px solid black; */
     display: grid;
@@ -70,14 +70,19 @@
 
 
 
-@media all and (min-width:421px) and (max-width:720px) {
+@media all and (min-width:401px) and (max-width:721px) {
     .boxes{
         height: 100%;
         width: 100%;
-        margin: auto;
-        margin-top: -200px;
+        margin-top: -100px;
         /* border: 1px solid red; */
         
+    }
+    .contentBoxes{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        /* justify-content: space-between; */
     }
     .search{
         width: 100%;
@@ -92,4 +97,29 @@
         font-weight: 500;
         font-size: 10px;
     }
+    .box1{
+        height: max-content;
+        width: 100%;
+        /* border: 1px solid blue; */
+        
+    }
+    .box2{
+        width: 100%;
+        /* display: none; */
+    }
+    .reruiter{
+        display: none;
+    }
+    .faq{
+        display: none;
+    }
+    .question{
+        display: none;
+    }
+    .hirirngDiv{
+        /* display: none; */
+        overflow: hidden;
+        
+    }
+    
 }

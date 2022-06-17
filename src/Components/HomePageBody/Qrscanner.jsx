@@ -1,9 +1,10 @@
 import { Box, Flex, Heading, Text,Image } from "@chakra-ui/react";
 import React from "react";
+import styles from "./Qrscanner.module.css"
 
 const Qrscanner = () => {
   return (
-    <Box mt={'10'} w="100%" h="160px"  p="4" bg={'#fff'} boxShadow='dark-lg'>
+    <Box className={styles.scanner} mt={'10'} w="100%" h="160px"  p="4" bg={'#fff'}  boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px">
       <Flex justifyContent={'space-between'}>
         <Text w="50%" fontWeight={'bold'} color='gray.800'>
           Get real-time job updates & instant notifications only on the app!

@@ -7,12 +7,14 @@ import "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js";
 const ProfileCard = () => {
   return (
     <div className={styles.profileDiv}>
-      <Avatar
+     <div  className={styles.avtar}>
+     <Avatar
         src="https://thumbs.dreamstime.com/z/smiling-business-lady-mobile-phone-28495563.jpg"
         size="lg"
         mt="-10"
-        ml="28"
+        ml="28" 
       ></Avatar>
+     </div>
       <div className={styles.AboutProfile}>
         <p className={styles.userName}>Mackenzie Arya</p>
         <span className={styles.education}>BCA Computers</span>

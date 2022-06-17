@@ -1,13 +1,21 @@
 import { StarIcon } from '@chakra-ui/icons'
-import { Box, Center, color, Flex, Select, Text, Image, Icon, Button } from '@chakra-ui/react'
+import { Box, Center, color, Flex, Select, Text, Image, Icon, Button, extendTheme } from '@chakra-ui/react'
 import React from 'react'
 // import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 import 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js';
-import 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'
+import 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js';
+import styles from './NaukriPulse.module.css'
+
+
+const breakpoints = {
+    sm: '401px',
+    md: '721px',
+  }
+const theme = extendTheme({ breakpoints })
 
 const NaukriPulse = () => {
   return (
-    <Box w="100%" h="330px" bg={'#fff'} boxShadow='rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px' p={'4'}>
+    <Box className={styles.naukripulse} w={{base:"100%", sm:"100%"}} h="330px" bg={'#fff'} boxShadow='rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px' p={'4'}>
         <Flex gap={'2'}>
            <Box h={'6'} w='22' bg={'#fe964f'} color='#fff' p={'1'}>
            <Text  fontSize='10px' fontWeight={'medium'}> NAUKRI PULSE</Text>
