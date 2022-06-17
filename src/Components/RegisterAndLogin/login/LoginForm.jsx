@@ -93,7 +93,7 @@ const LoginForm = () => {
 					</div>
 
 					<div>
-						<Button colorScheme="blue" variant="link" size="sm" className={style.GoogleButton}>
+						<Button colorScheme="blue" variant="link" size="sm" className={style.GoogleButton} >
 							Use OTP to login
 						</Button>
 					</div>
