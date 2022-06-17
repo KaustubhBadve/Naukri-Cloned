@@ -1,0 +1,179 @@
+
+  .forNabvar{
+    display: flex;
+    /* width: 600px; */
+    margin-left: 23.5%;
+   
+  }
+.forNabvar>div{
+
+    cursor: pointer;
+   
+    padding: 10px 25px;
+    
+    border-right: 1px solid #e4e4e49f;
+}
+.forNabvar>div:nth-child(1){
+    border-bottom: 2px solid rgb(43, 15, 228);
+    background-color: #efefefbb;
+    }
+.forNabvar>div:hover{
+    background-color: #efefef;
+    border-bottom: 2px solid rgb(43, 15, 228);
+
+}
+
+.forgrid{
+padding-left: 17px;
+    /* margin-top: -219px; */
+    width: 726px;
+    margin-left:21%;
+    justify-content: center;
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto,1fr);
+    grid-gap:0 ;
+}
+
+
+.divrs{
+    width: 336px;
+    height: 187px;
+
+   line-height: 1.2;
+    padding: 11px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.088);
+}
+.divrs:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.045);
+}
+.forflex{
+    display: flex;
+}
+.forflex>div>img{
+ width: 78px;
+ height: 78px;
+ border: 1px solid #e7e7e7;
+ float: left;
+ margin-right: 12px;
+}
+.forflex>div:nth-child(1){
+    padding: 5px;
+    display: block;
+    padding-bottom: 5px;
+}
+.forflex>div:nth-child(2){
+   
+    display: block;
+    padding-bottom: 5px;
+}
+.forskills{
+    font-size: 12px;
+    display: block;
+    height: 45px;
+}
+
+.forflex>div>div{
+    font-size: 14px;
+}
+.forbutton{
+    display: flex;
+    justify-content: space-between;
+    width: 336px;
+    height: 60px;
+    padding: 11px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.088);
+
+}
+.forbutton:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.141)
+}
+.forbutton>div>button{
+    height: 40px;
+    width: 114px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    outline: 0
+}
+.forbutton>div>button:hover{
+    background-color:rgb(27,188,155);
+    color: white;
+}
+.forbutton>div:nth-child(2)>a{
+
+    font-size: 14px;
+  
+    color: blue;
+}
+.siderecruterspage{
+    width: 250px;
+    height: 2000px;
+
+    margin-top: 0%;
+  
+   
+    }
+    .siderecruterspage>p{
+        text-align: center;
+    }
+    .forgridtop{
+        display: flex;
+    }
+    .siderecontaint{
+display: flex;
+font-size: 12px;
+
+
+    }
+    .siderecontaint>div{
+        margin: 5px;
+    }
+
+    .siderecontaint>div>img{
+        width: 78px;
+        height: 78px;
+      
+       
+    }
+    .foldiv{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+   
+    }
+    .folbtn{
+        border: 1px solid black;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        background: #fff;
+        border: 1px solid #e1e1e1;
+        color: #666;
+        font-size: 14px;
+        display: inline-block;
+        cursor: pointer;
+        outline: 0;
+        text-align: center;
+        
+    }
+    .folbtn:hover{
+        background-color:rgb(27,188,155);
+      color: white;
+    }
+    .siderheight{
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.141);
+        height: 150px;
+    }
+    .foldiv>div{
+color: blue;
+    }
+    .positiondiv{
+        width: 1200px;
+        margin-left: -100px;
+    }
+  

@@ -13,6 +13,8 @@ import Education from "../src/Components/RegisterAndLogin/education/Education"
 import Body from './Components/HomePageBody/Body';
 import LandingNavbar from './Components/LandingPage/LandingNavbar';
 import Empnav from "./Components/foremployers/empnav";
+import Recruters from './Components/Recruter/Recruters';
+import Topcompany from './Components/TopCompany/Topcompany';
 
 // use StyleSheet.module for css
 
@@ -35,6 +37,8 @@ function App() {
         <Route path="/home" element={<Body/>}/>
         <Route path='/' element={<LandingNavbar/>}></Route>
         <Route path='/employer' element={<Empnav/>}></Route>
+        <Route path='/recruter' element={<Recruters/>}></Route>
+        <Route path='/topcompany' element={<Topcompany/>}></Route>
       </Routes>
     </div>
   );
