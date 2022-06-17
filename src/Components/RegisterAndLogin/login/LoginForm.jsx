@@ -9,14 +9,16 @@ import {
 	InputGroup,
 	InputRightElement,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import style from "./LoginPage.module.css";
-import {useDispatch} from "react-redux"
+import { useDispatch, useSelector } from "react-redux";
 import { loginAPI } from "../storeLogin/actionsLogin";
+import { useNavigate } from "react-router-dom";
 
 const LoginForm = () => {
 	const dispatch = useDispatch();
+	let navigate = useNavigate();
 
 	const [show, setShow] = useState(false);
 	const handleClick = () => setShow(!show);
@@ -33,9 +35,17 @@ const LoginForm = () => {
 
 	const handleLoginSubmit = (e) => {
 		e.preventDefault();
-		dispatch(loginAPI(loginCreds))
+		dispatch(loginAPI(loginCreds));
 		console.log(loginCreds);
 	};
+
+	const { isAuth } = useSelector((state) => state.login);
+
+	useEffect(() => {
+		if (isAuth) {
+			navigate("/home");
+		}
+	}, [navigate, isAuth]);
 
 	return (
 		<div>
@@ -93,7 +103,12 @@ const LoginForm = () => {
 					</div>
 
 					<div>
-						<Button colorScheme="blue" variant="link" size="sm" className={style.GoogleButton} >
+						<Button
+							colorScheme="blue"
+							variant="link"
+							size="sm"
+							className={style.GoogleButton}
+						>
 							Use OTP to login
 						</Button>
 					</div>
@@ -101,7 +116,8 @@ const LoginForm = () => {
 					<div className={style.googleDividerDiv}>
 						<Divider />
 						<div className={style.GoogleDividerORLogin}>OR</div>
-						<Button className={style.GoogleButton}
+						<Button
+							className={style.GoogleButton}
 							leftIcon={<FcGoogle />}
 							colorScheme="blue"
 							variant="outline"

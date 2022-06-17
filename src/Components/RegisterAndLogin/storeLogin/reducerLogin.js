@@ -5,11 +5,13 @@ import {
 	LOGOUT,
 } from "./actionTypesLogin";
 
+let token = localStorage.getItem("token");
+
 const initState = {
 	loading: false,
 	error: false,
-	isAuth: false,
-	token: "",
+	isAuth: !!token,
+	token: token,
 };
 
 const authReducer = (state = initState, { type, payload }) => {
@@ -19,6 +21,7 @@ const authReducer = (state = initState, { type, payload }) => {
 		}
 		case LOGIN_SUCCESS: {
             alert("Login successful!")
+			localStorage.setItem("token",JSON.stringify(payload.token))
 			return {
 				...state,
 				loading: false,
@@ -33,6 +36,7 @@ const authReducer = (state = initState, { type, payload }) => {
 			return { ...state, error: true, loading: false, isAuth: false };
 		}
 		case LOGOUT: {
+			localStorage.removeItem("token");
 			return { ...state, isAuth: false };
 		}
 		default:

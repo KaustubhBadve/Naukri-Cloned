@@ -16,7 +16,8 @@ export const registerAPI = (creds) => (dispatch) => {
 		mobile: creds.mobile,
 		description: creds.description,
 	};
-	// console.log(data);
+	
+	localStorage.setItem("nameUser", JSON.stringify(creds.name));
 
 	data=JSON.stringify(data)
 
