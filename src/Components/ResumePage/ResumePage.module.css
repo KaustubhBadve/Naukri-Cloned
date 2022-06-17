@@ -1,0 +1,386 @@
+.promoMessage {
+    align-items: center;
+    background: #fec923;
+    height: 52px;
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.homepage{
+    position: relative;
+}
+.headerpanel{
+    position: relative;
+    width: 100%;
+}
+.headerText{
+    text-align: center;
+    line-height: 25px;
+    margin: 0 0 10px;
+    padding-top: 20px;
+}
+.infoheader{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.infoheadersmall {
+    font-size: 16px;
+    color: #fff;
+    line-height: 35px;
+}
+.headertext {
+    text-align: center;
+    line-height: 25px;
+    margin: 0 0 10px;
+    padding-top: 20px;
+}
+.bgwrap{
+    width: 100%;
+    height: 290px;
+    position: absolute;
+  
+    z-index: 1;
+    background: linear-gradient(23deg,#1c2e60,#1c2b4a);
+}
+
+.promotioncard{
+    width: 290px;
+    height: 320px;
+}
+
+.mediacard {
+    width: 305px;
+    /* display: inline-block; */
+    height: 100%;
+    padding: 10px 8px;
+    display: flex;
+    justify-content: center;
+  
+}
+.cards {
+    height: 100%;
+    box-shadow: 0 5px 10px 2px rgb(195 192 192 / 20%);
+    display: block;
+    color: #333;
+    background: #fff;
+    height: 600px;
+}
+.cards figure {
+    margin: 0;
+    position: relative;
+    background-image: linear-gradient(-225deg,#f7f7f7,#fff);
+    width: 100%;
+    background-size: cover;
+}
+
+.textStrip {
+    float: right;
+    top: -150px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    background: #1a1a1a;
+    font-size: 9px;
+    color: #fdfdfd;
+    background: #f48238;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px 10px;
+    z-index: 4;
+}
+
+.LazyLoadisvisible>img {
+    width:300px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #fff;
+    z-index:3;
+}
+
+ .cardHead {
+    padding: 10px 15px 30px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 16px;
+}
+.serviceName {
+    font-size: 11px;
+    color: #444;
+    letter-spacing: 1.4px;
+    text-align: left;
+    line-height: 13px;
+    margin-bottom: 20px;
+}
+.cardDescr {
+    font-size: 16px;
+    color: #565a5c;
+    margin-bottom: 10px;
+}
+.cardDetail {
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.priceDetails {
+    margin-top: 15px;
+}
+.knowMore:hover {
+ cursor: pointer;
+    color: #4a90e2;
+}
+.price{
+    display: flex;
+  
+    justify-content: space-between;
+}
+
+.price>div>span{
+    font-size: 12px;
+}
+.servicecontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+.resumeWriting1 {
+    width: 610px;
+    /* background-color: red; */
+    height: 302px;
+    box-sizing: border-box;
+    margin-top: 556px;
+ margin-left: 180px;
+
+ box-shadow: 0 5px 10px 2px rgb(195 192 192 / 20%);
+ background-color: #fff;
+}
+
+
+ .cards {
+    height: 100%;
+    box-shadow: 0 5px 10px 2pxrgba(195,192,192,.2);
+    display: block;
+    color: #333;
+    background: #fff;
+}
+ .cursorpointer {
+    cursor: pointer;
+ } 
+.waveseffect1 {
+    position: relative;
+   
+    overflow: hidden;
+  
+}
+.cursorpointer1>figure {
+    display: flex;
+    width: 242px;
+    height: 232px;
+    z-index: 15;
+    margin-left: 100px;
+}
+.Lazyimg1 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 20%;
+  background-color: #fff;
+  width: 300px;
+    left: 40px;
+   
+}
+
+.cardHead1 {
+    width: 350px;
+    margin-top: -230px;
+    vertical-align: bottom;
+  margin-left: 260px;
+  padding: 20px;
+
+}
+.serviceName1 {
+    font-size: 11px;
+    color: #444;
+    letter-spacing: 1.4px;
+    text-align: left;
+    line-height: 13px;
+    margin-bottom: 20px;
+}
+.cardDescr1 {
+    font-size: 16px;
+    color: #565a5c;
+    margin-bottom: 10px;
+}
+.cardDetail1 {
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.rwlinks1 {
+    font-size: 13px;
+    color: #666;
+    padding: 10px 0;
+}
+.priceDetails1 {
+    margin-top: 15px;
+}
+.knowMore1 {
+    float: right;
+    font-size: 13px;
+    position: relative;
+    color: #4a90e2;
+}
+
+.resumebody{
+    display: flex;
+    flex-direction: column;
+} 
+
+.sidecards1{
+    width: 298px;
+    height: 172px;
+    margin: 1px;
+    margin-top: 695px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    
+}
+.contactdiv{
+    display: flex;
+    width: 915px;
+    height: 510px;
+    margin:auto ;
+    display: flex;
+  
+}
+
+
+.contactdiv1{
+    width: 440px;
+    height: 510px;
+    background-color: rgb(68,149,230);
+    padding: 75px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.contactdiv1>div{
+    width: auto;
+    height: 51px;
+    font-size: 14px;
+
+  
+}
+.contactdiv2{
+    box-shadow: 0 5px 10px 2px rgb(195 192 192 / 20%);
+    height: 510px;
+    padding: 25px;
+    width:450px ;
+    margin: 5px;
+    background-color: #fff;
+
+}
+
+.contactinp,.contactarea,.contactbutton{
+    
+    background-color: #fff;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding-left: 10px;
+    color: #000;
+
+}
+.contactarea{
+    height: 70px;
+    margin: 100px 0px;
+    display: flex;
+  
+    justify-content: center;
+}
+.contactarea>textarea{
+    width: 525px;
+
+}
+.contactbutton{
+    background-color:rgb(68,149,230);
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 5px;
+    margin: 40px 0px ;
+  
+}
+
+.contactdiv2>h1{
+    margin: 5px 0px;
+}
+.contactdiv2>div{
+    margin: 5px 0px;
+}
+
+.body{
+   
+  z-index: -5;
+    width: 100%;
+    height: 2000px;
+    position: relative;
+}
+.LazyLoadisvisible>img{
+    height: 150px;
+}
+.bodyresume1{
+    background-color: rgba(0, 0, 0, 0.027);
+    position: absolute;
+   cursor: pointer;
+    width: 178px;
+    height: 2000px;
+}
+.bodyresume1forcolor{
+    background-color: rgba(0, 0, 0, 0.027);
+    position: absolute;
+right: 0px;
+    width: 176px;
+    height: 2000px;
+}
+.box121{
+    width: 900px;
+    height: 146px;
+  
+    margin: auto;
+ margin-top: 15px;
+   
+    padding: 5px;
+}
+
+
+.title {
+    font-size: 16px;
+    color: #333;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}

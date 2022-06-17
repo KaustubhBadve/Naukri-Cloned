@@ -1,0 +1,62 @@
+.forflex{
+    display: flex;
+    font-size: 12px;
+}
+.forflex1{
+    display: flex;
+ text-align: center;
+ align-items: center;
+
+ padding:5px 13px;
+}
+.tap{
+    /* padding-left: 12.2px;
+    padding-right: 12.2px; */
+    color: #666;
+    cursor: pointer;
+
+    padding:5px 13px;
+    background-color: #efefef;
+    border-right: 1px solid #e4e4e4
+}
+.forbodytop{
+    width: 980px;
+    background-color: #fff;
+    z-index: 15;
+    margin: auto;
+}
+
+.fornavb{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 49px;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    /* line-height: 49px */
+}
+.searchliast{
+display: flex;
+font-size: 12px;
+height: max-content;
+margin-bottom: 5px;
+
+}
+.searchliast>div{
+    padding: 5px;
+}
+.searchliast>div>li{
+    list-style: none;
+    cursor: pointer;
+    padding: 3px;
+}
+.searchliast>div>li:hover{
+    color: blue;
+}
+.fullbody{
+
+    background-color: rgba(102, 102, 102, 0.064);
+height: 600px;
+    z-index: 10;
+  
+}
