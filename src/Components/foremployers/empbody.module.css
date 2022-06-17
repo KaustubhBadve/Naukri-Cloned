@@ -1,0 +1,241 @@
+.empbody{
+    padding-top: 100px;
+}
+.subbody1{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.center{
+    text-align: center;
+
+}
+.subcenter{
+    text-align: center;
+    border-bottom: 1px solid rgb(219, 217, 217);
+    padding-bottom: 5px;
+    margin-top: 20px ;
+    
+}
+.body1flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    /* gap: 5px; */
+}
+.body1flex>p{
+    color: gray;
+    border-right:1px solid rgb(221, 219, 219) ;
+   
+    padding: 5px;
+}
+.body1flex>span{
+    color: gray;
+    padding: 5px;
+}
+.blue{
+    color: rgb(40,112,193);
+    font-weight: 500;
+}
+.large{
+    font-size: 25px;
+    font-weight: 500;
+}
+.med{
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+.body1btn{
+    border: 1px solid rgb(40,112,193);
+    color: rgb(40,112,193);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 7px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.body1btn:hover{
+    background-color: rgb(241, 238, 238);
+}
+.center>img{
+    width: 500px;
+    height:420px;
+    margin-top: 15px;
+    
+}
+.body2flex{
+    display: flex;
+    gap: 30px;
+    padding-top: 12px;
+    padding-left: 12px;
+    border-bottom: 1px solid rgb(172, 170, 170);
+}
+.empform1{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 400px;
+}
+.radiocarrier{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.robocarrier{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+    /* margin-bottom: 10px; */
+    width: 70%;
+    background-color: rgb(214, 210, 210);
+}
+.robocarrier>img{
+    
+    height: 30px;
+}
+.callbackbtn{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    width: 90%;
+    color: white;
+    background-color: rgb(40,112,193);
+   
+}
+.sales{
+    display: grid;
+    align-items: center;
+   
+    padding: 12px;
+}
+.hide{
+    display: none;
+}
+.empinpcarrier>input{
+    outline: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.withunderline{
+    border-bottom: 3px solid red;
+
+}
+.nounderline{
+    border-bottom: none;
+}
+.withunderline:hover{
+    cursor: pointer;
+}
+.nounderline:hover{
+    cursor: pointer;
+}
+.showlr{
+    display: grid;
+    align-items: center;
+   text-align: center;
+    padding: 12px;
+}
+.xs{
+    font-size: small;
+    color: gray;
+    margin-top: 10px;
+}
+.xs>span{
+    font-size: small;
+    color: rgb(74, 140, 167);
+}
+.query{
+    display: flex;
+    justify-content: space-between;
+}
+.query>span{
+    font-size: small;
+    color: rgb(74, 140, 167);
+}
+.regbtn{
+    border: 1px solid rgb(40,112,193);
+    color: rgb(40,112,193);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 550;
+    padding: 7px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.jobposting{
+    font-size: 20px;
+    font-weight: 550;
+    
+}
+.sb2grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 20px 0px;
+}
+.sb2flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.sb2mainflex{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+    padding: 20px 10%;
+    
+}
+.sb2mainflex>img{
+    height: 350px;
+}
+
+.sb2submain1{
+    padding-top: 5%;
+}
+.sb2submain1>p{
+    margin-top: 20px;
+}
+.sb2{
+    text-align: center;
+    /* border-bottom: 1px solid rgb(219, 217, 217); */
+    padding-bottom: 5px;
+    margin-top: 20px ;
+}
+.subbody2{
+  padding-top: 30px;
+}
+
+@media all and (min-width:401px) and (max-width:720px){
+
+    .subbody1{
+        display: flex;
+       flex-direction: column;
+       
+    }
+    .subbody1>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sb2mainflex{
+        display: flex;
+       flex-direction: column;
+    }
+    .empform1{
+        width: 380px;
+        padding: 10px 0px;
+    }
+
+
+}

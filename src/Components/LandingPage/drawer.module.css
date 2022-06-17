@@ -1,0 +1,95 @@
+.drawermain{
+    position: fixed;
+    margin-left: 60%;
+    width: 40%;
+    z-index: 1100;
+    background-color: white;
+    height: 100%;
+    padding:20px 40px;
+}
+.close{
+    text-align: end;
+    color: gray;
+}
+
+.close:hover{
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+.dlog1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 90%;
+}
+.blue1{
+    font-weight: 500;
+    color: rgb(74,144,226);
+}
+
+.dlogin{
+    font-size: 23px;
+    font-weight: 550;
+}
+.dinp{
+    padding: 8px 15px;
+    border: 1px solid black;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.fgtp{
+    margin-top: -20px;
+    padding: 0px 10%;
+    text-align: end;
+}
+.fgtp>p{
+    color: rgb(74,144,226);
+    font-size: 13px;
+    font-weight: 500;
+}
+.dlogbtn{
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500px;
+    background-color:rgb(74,144,226); 
+    color: white;
+    padding: 8px 15px;
+    margin-top: 20px;
+    
+}
+.txtcen{
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+}
+.txtcen>p{
+    color: rgb(74,144,226);
+}
+.line{
+    margin-top: 30px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.line>hr{
+    width: 44%;
+}
+.dsign{
+    margin-top: 20px;
+    width: 90%;
+    padding: 12px;
+    display: flex;
+    gap: 25%;
+    border-radius: 22px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.dsign>img{
+    width: 22px;
+}
+.pointer:hover{
+    cursor: pointer;
+}
