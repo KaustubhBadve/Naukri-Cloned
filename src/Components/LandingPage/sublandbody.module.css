@@ -1,0 +1,130 @@
+.subbody{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.inbox{
+    color: rgb(88, 88, 236);
+    background-color: rgb(219, 218, 218);
+    font-size: medium;
+    padding: 5px;
+    font-weight: 500;
+}
+.flex{
+    
+    display: flex;
+    
+    gap: 20px;
+    /* padding-right: 30px; */
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 20px;
+    align-items: center;
+    text-align: left;
+}
+.flex>img{
+    height: 70%;
+    padding-left: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,270px);
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    
+}
+.grid>div:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.subdiv1{
+    width: 20%;
+}
+
+.larger{
+    font-size: 30px;
+    font-weight: 550;
+}
+.medium{
+    font-size: 20px;
+    font-weight: 500;
+}
+.blue{
+    color: rgb(87, 87, 212);
+    font-size: medium;
+    font-weight: 500;
+}
+.blue:hover{
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+    /* border: 1px solid rgb(214, 213, 213); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+}
+.med{
+    font-size: 18px;
+    font-weight: 500;
+}
+.tdivp{
+    border-bottom: 1px solid rgb(228, 225, 225);
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+.subtdiv{
+    margin-top: 25px;
+}
+.tdivp>span{
+    color: gray;
+    font-size: 14px;
+}
+.tdivp:hover{
+    cursor: pointer;
+}
+
+@media all and (min-width: 401px) and (max-width: 720px){
+    .grid{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        /* grid-template-columns: repeat(1,200px); */
+        align-items: center;
+        
+    }
+    .flex{
+        width: 80%;
+    }
+    .larger{
+        font-size: 16px;
+    }
+    .inbox{
+        font-size: xx-small;
+    }
+    .med{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .flex>img{
+        width: 30px;
+    }
+    .medium{
+        font-size: 16px;
+    }
+    .subbody{
+        flex-direction: column;
+    }
+    .subdiv1{
+        width: 90%;
+        text-align: center;
+    }
+}

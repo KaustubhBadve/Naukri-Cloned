@@ -11,6 +11,8 @@ import OtpPage from "../src/Components/RegisterAndLogin/otp/OtpPage"
 import Employement from "../src/Components/RegisterAndLogin/employement/Employement"
 import Education from "../src/Components/RegisterAndLogin/education/Education"
 import Body from './Components/HomePageBody/Body';
+import LandingNavbar from './Components/LandingPage/LandingNavbar';
+import Empnav from "./Components/foremployers/empnav";
 
 // use StyleSheet.module for css
 
@@ -31,6 +33,8 @@ function App() {
 				<Route path="/education" element={<Education />} />
         {/* REGISTRATION AND LOGIN */}
         <Route path="/home" element={<Body/>}/>
+        <Route path='/' element={<LandingNavbar/>}></Route>
+        <Route path='/employer' element={<Empnav/>}></Route>
       </Routes>
     </div>
   );

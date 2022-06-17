@@ -1,0 +1,215 @@
+.lnav1{
+    display: flex;
+    gap: 90px;
+}
+.sublnav1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.lphover{
+    font-weight: bold;
+    color: gray;
+}
+.lnavbar{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px 70px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    
+    z-index: 999;
+    background-color: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+    
+}
+.lnav1>img{
+    height: 30px;
+
+}
+.lnav1>img:hover{
+    cursor: pointer;
+}
+.loginbutton{
+    border-radius: 20px;
+    border: 2px solid skyblue;
+    padding: 5px 20px;
+    color: skyblue;
+    font-weight: bold;
+}
+.registerbutton{
+    border-radius: 20px;
+    /* border: 2px solid blue; */
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+    background-color: orangered;
+}
+.btncarrier{
+    display: flex;
+    gap: 10px;
+    border-right: 1px solid gray;
+    padding-right: 30px;
+}
+.sublnav2{
+    display: flex;
+    gap: 30px;
+}
+.showjob{
+    display: flex; 
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color:white;
+    padding: 20px 0px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 60px;
+    border-radius: 20px;
+    z-index: 999;
+   position: fixed;
+    
+}
+.hidejob{
+    display: none;
+}
+.showcompany{
+    display: flex; 
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color:white;
+    padding: 30px 0px;
+    margin-top: 60px;
+    width: 60%;
+    margin-left: 15%;
+    border-radius: 20px;
+    z-index: 999;
+    position: fixed;
+}
+.hidecompany{
+    display: none;
+}
+.showresources{
+    display: flex; 
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color:white;
+    padding: 30px 0px;
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 30%;
+    border-radius: 20px;
+    z-index: 999;
+    position: fixed;
+}
+.hideresources{
+    display: none;
+}
+.showservices{
+    display: flex; 
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color:white;
+    padding: 30px 0px;
+    width: 55%;
+    margin-top: 60px;
+    margin-left: 20%;
+    border-radius: 20px;
+    z-index: 999;
+    position: fixed;
+}
+.hideservices{
+    display: none;
+}
+.showemployer{
+   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color:white;
+    padding: 30px 0px;
+    width: 15%;
+    margin-top: 60px;
+    margin-left: 81%;
+    border-radius: 20px;
+    z-index: 999;
+    position: fixed;
+}
+.hideemployer{
+    display: none;
+}
+.lbold{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.lp{
+    color: gray;
+    cursor: pointer;
+    /* font-weight: bold; */
+    /* font-size: 18px; */
+    font-weight: bold;
+}
+.lsubdiv{
+    line-height: 35px;
+    /* width: 23%; */
+    padding-left:30px;
+    border-left: 0.2px solid rgb(184, 182, 182);
+}
+.lp:hover{
+    color: rgb(103, 164, 189);
+}
+.lsubdiv1{
+    line-height: 35px;
+    /* width: 23%; */
+    padding-left:10px;
+}
+.lphover:hover{
+    border-bottom: 3px solid orangered;
+    color: black;
+    cursor: pointer;
+}
+.lphover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lp>span{
+    font-weight: lighter;
+}
+i{
+    margin-left: 5px;
+}
+.showdrawer{
+    display: block;
+}
+.hidedrawer{
+    display: none;
+}
+
+.blur{
+    opacity: 0.5;
+}
+
+
+@media all and (min-width:401px) and (max-width:720px){
+
+    .lnav1{
+        display: none;
+    }
+    .lphover{
+        font-size: 12px;
+    }
+    .lnavbar{
+        padding: 10px 0px;
+        justify-content: center;
+    }
+    .showemployer{
+        margin-left: 60%;
+        width: 40%;
+    }
+
+
+}
