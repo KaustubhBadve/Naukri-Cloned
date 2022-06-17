@@ -22,8 +22,6 @@ import {
 
 const DesktopSubNav = ({ label, href, subLabel }) => {
  
-  // console.log(servicedata)
-
     return (
       <Link
         href={href}

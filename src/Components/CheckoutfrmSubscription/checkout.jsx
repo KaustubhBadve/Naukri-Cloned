@@ -2,10 +2,12 @@ import React from 'react'
 import Navbar from './navbar'
 import style from './Checkout.module.css'
 import { useNavigate } from 'react-router-dom'
+import Footer from '../HomePageFooter/Footer'
 
 const Checkout = () => {
   const navigate=useNavigate()
   return (
+    <>
     <div>
         <Navbar/>
         <div className={style.CheckoutMain}>
@@ -24,7 +26,7 @@ const Checkout = () => {
         <p>Jobs on SMS for 1 month - Premium Monthly Plan</p>
         <button className={style.checkbtn1}>Delete</button>
         <br />
-        <button className={style.checkbtn2}>CONTINUE SHOPPING</button>
+        <button className={style.checkbtn2} onClick={()=>navigate("/resume")}>CONTINUE SHOPPING</button>
        </div>
        
        
@@ -63,6 +65,8 @@ const Checkout = () => {
        </div>
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

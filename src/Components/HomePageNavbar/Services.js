@@ -91,6 +91,7 @@ const service = [
     children: [
       {
         label: "Basic & Premium Plans",
+        href: "/subscription"
       },
     ],
   },

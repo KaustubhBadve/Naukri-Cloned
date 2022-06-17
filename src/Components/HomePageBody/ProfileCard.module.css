@@ -139,6 +139,12 @@
     color: rgb(81, 80, 80);
 }
 
+.avtar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media all and (min-width:401px) and (max-width:720px) {
     .profileDiv{
         height: 555px;

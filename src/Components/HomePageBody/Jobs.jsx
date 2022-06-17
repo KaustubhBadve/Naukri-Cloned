@@ -1,11 +1,20 @@
-import { Box, Flex, HStack, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, HStack, Link,Text } from "@chakra-ui/react";
 import React from "react";
 import "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js";
 import "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js";
 import styles from "./Jobs.module.css"
+import { useNavigate } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 const Jobs = () => {
+
+  const navigate =useNavigate();
+
+  let handleJobpage=()=>{
+    navigate("/jobrecomandation")
+  }
+
   return (
     <Box
     className={styles.recomended}
@@ -59,7 +68,7 @@ const Jobs = () => {
         </Flex>
         <Text pr={'2'} color={"gray.600"} fontSize={'xs'}>Posted 1 Day Ago</Text>
       </Flex>
-      <Link pr={'4'} color='twitter.500' float={'right'}>View All</Link>
+      <Link pr={'4'} color='twitter.500' float={'right'} onClick={handleJobpage}>View All</Link>
       </div>
     </Box>
   );

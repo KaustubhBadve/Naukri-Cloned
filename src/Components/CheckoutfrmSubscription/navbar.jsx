@@ -1,11 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import style from './Checkout.module.css'
 
 const Navbar = () => {
+   const navigate = useNavigate();
   return (
     <div className={style.navbar}>
      <div>
-        <div className={style.navbarlogo}><img src="https://static.naukimg.com/s/7/123/i/FF-Logo.8e75327b.png" alt="" /></div>
+        <div className={style.navbarlogo}><img onClick={() => navigate("/home")} src="https://static.naukimg.com/s/7/123/i/FF-Logo.8e75327b.png" alt="" /></div>
      </div>
      <div className={style.navbarsub1}>
         <div className={style.navbarsub11} >1. SHOPPING CART</div>

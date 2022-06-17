@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import style from './Checkout.module.css'
 import { useNavigate } from 'react-router-dom'
 import NavbarPayment from './navbarPayment'
+import Footer from '../HomePageFooter/Footer'
 
 
 const CheckoutCardDetails = () => {
@@ -57,6 +58,7 @@ const HandleClick=()=>{
 }
   
   return (
+    <>
     <div>
         <NavbarPayment/>
         <div className={style.CheckoutMain}>
@@ -200,6 +202,8 @@ const HandleClick=()=>{
        </div>
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 
