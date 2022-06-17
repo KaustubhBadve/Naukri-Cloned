@@ -1,12 +1,20 @@
-import { Button, Heading, Image } from "@chakra-ui/react";
+import { Heading, Image } from "@chakra-ui/react";
 import React from "react";
-import JobsMatch from "../JobsRecomndation/jobsMatch";
 import JobRecomandation from "./JobRecomandation";
 import style from "../JobsRecomndation/jobs.module.css";
+import JobFrom from "./JobFrom";
+import { useSelector } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
+import WithSubnavigation from "../Recruter/RecNavbar";
+import Footer from "../HomePageFooter/Footer";
 const Job = () => {
+  const { applyjob } = useSelector((state) => state.job);
+  const navigate = useNavigate();
+
   return (
     <div>
       {/* header */}
+      <WithSubnavigation />
       <div className={style.head_body}>
         <div className={style.header_image}>
           <Image
@@ -20,17 +28,21 @@ const Job = () => {
           <Heading size="xs" className={style.name}>
             You can select upto 5 jobs to apply
           </Heading>
-
-          <button className={style.apply_btn} type="button" disabled>
-            Apply
-          </button>
+          <Link to="/applyjobsuccessfull">
+            <button className={style.apply_btn}>
+              {applyjob.length === 0 ? "Apply" : `Apply ${applyjob.length} job`}
+            </button>
+          </Link>
         </span>
       </div>
 
-      <div>
-      
+      <div className={style.jdinfor_withform}>
         <JobRecomandation />
-        <JobsMatch />
+        <JobFrom />
+      </div>
+
+      <div className={style.jobfooter}>
+        <Footer />
       </div>
     </div>
   );

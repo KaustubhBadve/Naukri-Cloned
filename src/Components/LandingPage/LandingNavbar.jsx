@@ -81,7 +81,7 @@ const LandingNavbar = () => {
     }
     let navigatetoregister=(event)=>{
         event.preventDefault();
-        navigate("/register",{replace:false})
+        navigate("/register")
     }
 
   return (

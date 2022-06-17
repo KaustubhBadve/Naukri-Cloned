@@ -15,6 +15,8 @@ import LandingNavbar from './Components/LandingPage/LandingNavbar';
 import Empnav from "./Components/foremployers/empnav";
 import Recruters from './Components/Recruter/Recruters';
 import Topcompany from './Components/TopCompany/Topcompany';
+import Job from './Components/JobsRecomndation/Job';
+import SuccessFullapply from './Components/JobsRecomndation/SuccessFullapply';
 
 // use StyleSheet.module for css
 
@@ -39,6 +41,10 @@ function App() {
         <Route path='/employer' element={<Empnav/>}></Route>
         <Route path='/recruter' element={<Recruters/>}></Route>
         <Route path='/topcompany' element={<Topcompany/>}></Route>
+
+        {/* job */}
+        <Route path='/jobrecomandation' element={<Job/>}></Route>
+        <Route path='/applyjobsuccessfull' element={<SuccessFullapply/>}></Route>
       </Routes>
     </div>
   );
