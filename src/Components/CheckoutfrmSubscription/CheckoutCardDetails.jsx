@@ -59,8 +59,9 @@ const HandleClick=()=>{
   
   return (
     <>
-    <div>
-        <NavbarPayment/>
+    
+    <div className={style.maincard}>
+    <NavbarPayment/>
         <div className={style.CheckoutMain}>
        
 

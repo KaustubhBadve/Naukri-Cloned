@@ -454,6 +454,7 @@
   height: 100vh;
   width: 100%;
   position: relative;
+  margin-top: 40px;
 }
 
 .storeLabel {

@@ -3,7 +3,8 @@ import styled from "./styled.module.css";
 // import Link
 import datajson from "../../dbs.json";
 import Footer from "../HomePageFooter/Footer";
-import WithSubnavigation from "./RecNavbar";
+// import WithSubnavigation from "./RecNavbar";
+import WithSubnavigation from '../HomePageNavbar/Navbar'
 
 const Recruters = () => {
   console.log(datajson.profile);
@@ -14,7 +15,7 @@ const Recruters = () => {
   return (
     <>
       <div >
-        <WithSubnavigation />
+      <WithSubnavigation/>
       </div>
 
       <div className={styled.positiondiv}>
@@ -24,7 +25,7 @@ const Recruters = () => {
 
           <div>BankingBPO / KPO</div>
           <div>Infrastructure</div>
-          <div>Menufacturing</div>
+          <div>Manifacturing</div>
         </div>
         <div className={styled.forgridtop}>
           <div className={styled.forgrid}>

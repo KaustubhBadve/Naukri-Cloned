@@ -31,8 +31,8 @@
   width: 350px;
   background-color: aliceblue;
   position: absolute;
-  top: 120px;
-  left: 80%;
+  top: 129px;
+  left: 78%;
 }
 .Swapbox11{
     display: flex;
@@ -210,6 +210,7 @@ td{
     margin-top: 70px;
     text-align: center;
     font-size: 30px;
+    margin-bottom: 50px;
 }
 .Addinfo1{
     display: flex;

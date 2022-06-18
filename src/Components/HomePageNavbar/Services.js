@@ -19,23 +19,24 @@ import DesktopSubNav from "./DesktopSubNav";
 const service = [
   {
     label: "Resume Writing",
+    href:"/resume",
     children: [
       {
         label: "Text Resume",
-        href: "#",
+        href:"/resume",
       },
       {
         label: "Visual Resume",
-        href: "#",
+        href:"/resume",
       },
       {
         label: "Resume Quality Score",
         sublabel: "Free",
-        href: "#",
+        href:"/resume",
       },
       {
         label: "Resume Sample",
-        href: "#",
+        href:"/resume",
       },
     ],
   },

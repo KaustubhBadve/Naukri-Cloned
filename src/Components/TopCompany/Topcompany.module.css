@@ -56,7 +56,8 @@ margin-bottom: 5px;
 .fullbody{
 
     background-color: rgba(102, 102, 102, 0.064);
-height: 600px;
+/* height:px; */
     z-index: 10;
+
   
 }

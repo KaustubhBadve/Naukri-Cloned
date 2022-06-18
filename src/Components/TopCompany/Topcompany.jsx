@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../HomePageFooter/Footer";
-import WithSubnavigation from "../Recruter/RecNavbar";
+// import WithSubnavigation from "../Recruter/RecNavbar";
+import WithSubnavigation from '../HomePageNavbar/Navbar'
 import styled from "./Topcompany.module.css";
 
 const Topcompany = () => {
@@ -37,6 +38,7 @@ const Topcompany = () => {
 
     return (
         <>
+        {/* <WithSubnavigation/> */}
         <WithSubnavigation/>
         <div className={styled.fullbody}>
         <div className={styled.forbodytop}>
@@ -78,11 +80,46 @@ const Topcompany = () => {
                 <li>AXA Technology Services Jobs AXIS IT & T Jobs</li>
                 <li> Abbott Healthcare Jobs</li>
                 <li> Accel Frontline Jobs</li>
+                <li>24/7 Customer Jobs </li>
+                <li>3D PLM Software Jobs </li>
+                <li>3i Infotech Jobs </li>
+                <li>AAPC India Hotel Management </li>
+                <li>ACT Television Jobs </li>
+                <li>ADP Jobs AIG Analytics & Services Jobs </li>
+                <li>ANG INDUSTRIES Jobs </li>
+                <li>ANI Technologies Jobs</li>
+                <li> ANZ Support Services Jobs </li>
+                <li>ARSTEG Solutions </li>
+                <li>Pvt Ltd Jobs </li>
+                <li>ASAP Info Systems </li>
+                <li>Jobs ASM Technologies Jobs</li>
+                <li> AT&T Jobs AVEVA Software Jobs </li>
+                <li>AXA Technology Services Jobs AXIS IT & T Jobs</li>
+                <li> Abbott Healthcare Jobs</li>
+                <li> Accel Frontline Jobs</li>
 
 
                 </div>
                 <div>
                 <li>Pvt Ltd Jobs </li>
+                <li>ASAP Info Systems </li>
+                <li>Jobs ASM Technologies Jobs</li>
+                <li> AT&T Jobs AVEVA Software Jobs </li>
+                <li>AXA Technology Services Jobs AXIS IT & T Jobs</li>
+                <li> Abbott Healthcare Jobs</li>
+                <li> Accel Frontline Jobs</li>
+                <li>Eleme Petrochemicals Jobs </li>
+               <li> Eli Research Jobs</li>
+                 <li>Elico Health Care Job</li>
+                <li>s Embassy of Saudi Arabia Jobs </li>
+               <li> Emco Jobs Emcure Pharmaceutical Jobs</li>
+               <li>  Emerson Information Jobs </li>
+               <li> Emerson Innovation Jobs</li>
+               <li> Jobs Enercon Jobs Enrich IT Services Jobs </li>
+              <li>  Era Group Jobs Ericsson Jobs</li>
+               <li>  Ernst & Young Jobs Escorts Jobs</li>
+               <li>  Esolser Jobs</li>
+               <li>Pvt Ltd Jobs </li>
                 <li>ASAP Info Systems </li>
                 <li>Jobs ASM Technologies Jobs</li>
                 <li> AT&T Jobs AVEVA Software Jobs </li>
@@ -123,11 +160,39 @@ const Topcompany = () => {
                <li>  Emerson Information Jobs </li>
                <li> Emerson Innovation Jobs</li>
                 <li> Jobs Enercon Jobs Enrich IT Services Jobs </li>
-              <li>  Era Group Jobs Ericsson Jobs</li>
+              <li>  Era Group Jobs Ericsson Jobs</li>   
+              <li>Pvt Ltd Jobs </li>
+                <li>ASAP Info Systems </li>
+                <li>Jobs ASM Technologies Jobs</li>
+                <li> AT&T Jobs AVEVA Software Jobs </li>
+                <li>AXA Technology Services Jobs AXIS IT & T Jobs</li>
+                <li> Abbott Healthcare Jobs</li>
+                <li> Accel Frontline Jobs</li>
+                <li>Eleme Petrochemicals Jobs </li>
+               <li> Eli Research Jobs</li>
+                 <li>Elico Health Care Job</li>
+                <li>s Embassy of Saudi Arabia Jobs </li>
+               <li> Emco Jobs Emcure Pharmaceutical Jobs</li>
                {/* <li>  Ernst & Young Jobs Escorts Jobs</li>  */}
                {/* <li>  Esolser Jobs</li> */}
                 </div>
                 <div>
+                <li>24/7 Customer Jobs </li>
+                <li>3D PLM Software Jobs </li>
+                <li>3i Infotech Jobs </li>
+                <li>AAPC India Hotel Management </li>
+                <li>ACT Television Jobs </li>
+                <li>ADP Jobs AIG Analytics & Services Jobs </li>
+                <li>ANG INDUSTRIES Jobs </li>
+                <li>ANI Technologies Jobs</li>
+                <li> ANZ Support Services Jobs </li>
+                <li>ARSTEG Solutions </li>
+                <li>Pvt Ltd Jobs </li>
+                <li>ASAP Info Systems </li>
+                <li>Jobs ASM Technologies Jobs</li>
+                <li> AT&T Jobs AVEVA Software Jobs </li>
+                <li>AXA Technology Services Jobs AXIS IT & T Jobs</li>
+                <li> Abbott Healthcare Jobs</li>
                 <li>24/7 Customer Jobs </li>
                 <li>3D PLM Software Jobs </li>
                 <li>3i Infotech Jobs </li>

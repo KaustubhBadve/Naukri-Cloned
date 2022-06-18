@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "./ResumePage.module.css";
-
+import WithSubnavigation from '../HomePageNavbar/Navbar'
+import Footer from "../HomePageFooter/Footer";
 const ResumePage = () => {
   return (
     <>
+    <WithSubnavigation/>
       <div className={styled.body}>
 
         <section className={styled.promoMessage}>
@@ -57,7 +59,7 @@ const ResumePage = () => {
                             <div className={styled.price}>
                               <div>
                                 {" "}
-                                1949 <span>for 3 Months</span>
+                                ₹ 1949 <span>for 3 Months</span>
                               </div>
 
                               <div className={styled.knowMore}>KNOW MORE</div>
@@ -99,7 +101,7 @@ const ResumePage = () => {
                             <div className={styled.price}>
                               <div>
                                 {" "}
-                                1949 <span>for 3 Months</span>
+                                ₹ 1949 <span>for 3 Months</span>
                               </div>
 
                               <div className={styled.knowMore}>KNOW MORE</div>
@@ -141,7 +143,7 @@ const ResumePage = () => {
                             <div className={styled.price}>
                               <div>
                                 {" "}
-                                839 <span>Only</span>
+                                ₹ 839 <span>Only</span>
                               </div>
 
                               <div className={styled.knowMore}>KNOW MORE</div>
@@ -190,14 +192,15 @@ const ResumePage = () => {
                       <a href= "" title="Visual Resume Samples">Visual Resume</a>
                       <a href= "" title="Resume Score">Resume Score</a>
                     </div>
+                   
                     <div className={styled.priceDetails1}>
                       <div className={styled.startsFrom1}>Starts from</div>
                       <div className={styled.price1}>
                         <i className={styled.fficonfficonrupee1}></i>
-                        <span>1653 Only</span>
+                        <span>₹ 1653 Only</span>
                       </div>
                     </div>
-                    <div className={styled.knowMore1}>KNOW MORE</div>
+                    <div className={styled.knowMore}>KNOW MORE</div>
                   </div>
                 </a>
               </div>
@@ -235,7 +238,7 @@ const ResumePage = () => {
                       <div className={styled.price}>
                         <div>
                           {" "}
-                          1949 <span>for 3 Months</span>
+                          ₹ 1949 <span>for 3 Months</span>
                         </div>
 
                         <div className={styled.knowMore}>KNOW MORE</div>
@@ -246,7 +249,7 @@ const ResumePage = () => {
               </div>
             </div>
           </div>
-          <div className={styled.servicerow1} style={{ display: "flex", marginLeft: "170px", marginTop: "160px" }}>
+          <div className={styled.servicerow1} style={{ display: "flex", marginLeft: "305px", marginTop: "160px" }}>
             <div className={styled.mediacard}>
               <div className={styled.cards}>
                 <a href="" className={styled.cursorpointer}>
@@ -278,7 +281,7 @@ const ResumePage = () => {
                       <div className={styled.price}>
                         <div>
                           {" "}
-                          1949 <span>for 3 Months</span>
+                          ₹ 1949 <span>for 3 Months</span>
                         </div>
 
                         <div className={styled.knowMore}>KNOW MORE</div>
@@ -322,7 +325,7 @@ const ResumePage = () => {
                       <div className={styled.price}>
                         <div>
                           {" "}
-                          2500 <span>for 5 Months</span>
+                          ₹ 2500 <span>for 5 Months</span>
                         </div>
 
                         <div className={styled.knowMore}>KNOW MORE</div>
@@ -364,7 +367,7 @@ const ResumePage = () => {
                       <div className={styled.price}>
                         <div>
                           {" "}
-                          1949 <span>for 3 Months</span>
+                          ₹ 1949 <span>for 3 Months</span>
                         </div>
 
                         <div className={styled.knowMore}>KNOW MORE</div>
@@ -385,18 +388,20 @@ const ResumePage = () => {
               <div>For bulk queries call: 18001034477</div>
             </div>
             <div className={styled.contactdiv2}>
-              <h1>CONTACT US</h1>
-              <span>
+              <h1><b> CONTACT US</b></h1>
+              <span style={{fontSize:"13px",color:"grey"}}>
                 Our executive will get in touch with you soon</span>
-              <div><label>Name*</label>
-                <br/>
-                <input placeholder="Enter your name" value={""} type={"text"}  onChange={(e)=>e.target.value} className={styled.contactinp}/></div>
+              <div>
+                <label>Name*
+                <input placeholder="Enter your name" className={styled.contactinp}/>
+                </label>
+               </div>
               <div><label>Email ID*</label>
                 <br />
-                <input placeholder="Enter your email" value={""} type={"text"} onChange={(e)=>e.target.value} className={styled.contactinp}/></div>
+                <input placeholder="Enter your email"  type={"text"}  className={styled.contactinp}/></div>
               <div><label>Mobile*</label>
                 <br />
-                <input placeholder="Enter your mobile" value={""} onChange={(e)=>e.target.value} className={styled.contactinp}/>
+                <input placeholder="Enter your mobile" className={styled.contactinp}/>
               </div>
               <span>Write your queries here</span>
               <br />
@@ -415,16 +420,19 @@ const ResumePage = () => {
           <div className={styled.box121}>
             <div className={styled.title}>See Samples</div>
             <div className="rsInfo">
-              <div className="sampleDesc">View select text resume, visual resume and cover letter samples across industries</div><div>
-                <a href="" title="Resume Samples">Text Resume</a>
-                <a href="" title="Visual Resume Samples">Visual Resume</a>
-                <a href="" title="Cover Letter">Cover Letter</a></div>
+              <div className={styled.sampleDesc}>View select text resume, visual resume and cover letter samples across industries</div><div>
+                <div style={{display:"flex", marginTop:"14px"}}>
+                <a href="" title="Resume Samples" className={styled.sampleDesc1}>Text Resume</a>
+                <a href="" title="Visual Resume Samples" className={styled.sampleDesc1}>Visual Resume</a>
+                <a href="" title="Cover Letter" className={styled.sampleDesc1}>Cover Letter</a></div>
+                </div>
             </div>
           </div>
 
 
         </div>
       </div>
+      <Footer />
     </>
   );
 };

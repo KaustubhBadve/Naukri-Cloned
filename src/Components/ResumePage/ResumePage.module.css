@@ -28,6 +28,7 @@
     font-size: 30px;
     color: #fff;
     text-align: center;
+    margin-top: 30px;
 }
 
 .infoheadersmall {
@@ -43,9 +44,8 @@
 }
 .bgwrap{
     width: 100%;
-    height: 290px;
+    height: 210px;
     position: absolute;
-  
     z-index: 1;
     background: linear-gradient(23deg,#1c2e60,#1c2b4a);
 }
@@ -62,11 +62,12 @@
     padding: 10px 8px;
     display: flex;
     justify-content: center;
+    
   
 }
 .cards {
     height: 100%;
-    box-shadow: 0 5px 10px 2px rgb(195 192 192 / 20%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
     display: block;
     color: #333;
     background: #fff;
@@ -106,6 +107,7 @@
     margin: auto;
     background-color: #fff;
     z-index:3;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
  .cardHead {
@@ -114,6 +116,7 @@
     font-size: 15px;
     font-weight: 450;
     line-height: 16px;
+    
 }
 .serviceName {
     font-size: 11px;
@@ -139,13 +142,9 @@
 .priceDetails {
     margin-top: 15px;
 }
-.knowMore:hover {
- cursor: pointer;
-    color: #4a90e2;
-}
+
 .price{
     display: flex;
-  
     justify-content: space-between;
 }
 
@@ -155,7 +154,7 @@
 .servicecontainer{
     display: flex;
     justify-content: center;
-    margin-top: 230px;
+    margin-top: 180px;
 }
 
 .resumeWriting1 {
@@ -164,10 +163,10 @@
     height: 302px;
     box-sizing: border-box;
     margin-top: 556px;
- margin-left: 180px;
-
+ margin-left: 295px !important;
  box-shadow: 0 5px 10px 2px rgb(195 192 192 / 20%);
  background-color: #fff;
+ margin-bottom: 30px;
 }
 
 
@@ -183,9 +182,8 @@
  } 
 .waveseffect1 {
     position: relative;
-   
     overflow: hidden;
-  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .cursorpointer1>figure {
     display: flex;
@@ -209,8 +207,9 @@
     width: 350px;
     margin-top: -230px;
     vertical-align: bottom;
-  margin-left: 260px;
-  padding: 20px;
+    margin-left: 260px;
+ padding: 20px;
+ height: 300px;
 
 }
 .serviceName1 {
@@ -241,8 +240,9 @@
 }
 .priceDetails1 {
     margin-top: 15px;
+    display: flex;
 }
-.knowMore1 {
+.knowMore {
     float: right;
     font-size: 13px;
     position: relative;
@@ -294,12 +294,13 @@
   
 }
 .contactdiv2{
-    box-shadow: 0 5px 10px 2px rgb(195 192 192 / 20%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 510px;
     padding: 25px;
     width:450px ;
     margin: 5px;
     background-color: #fff;
+
 
 }
 
@@ -370,13 +371,23 @@ right: 0px;
 .box121{
     width: 900px;
     height: 146px;
-  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: auto;
- margin-top: 15px;
-   
-    padding: 5px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.sampleDesc{
+    font-size: 12px;
+    margin-left: 17px;
 }
 
+.sampleDesc1{
+    font-size: 12px;
+    display: flex;
+    color: #4a90e2;
+    margin-left: 17px;
+    cursor: pointer;
+}
 
 .title {
     font-size: 16px;

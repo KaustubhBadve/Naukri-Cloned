@@ -5,7 +5,8 @@ import style from "../JobsRecomndation/jobs.module.css";
 import JobFrom from "./JobFrom";
 import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import WithSubnavigation from "../Recruter/RecNavbar";
+// import WithSubnavigation from "../Recruter/RecNavbar";
+import WithSubnavigation from '../HomePageNavbar/Navbar'
 import Footer from "../HomePageFooter/Footer";
 const Job = () => {
   const { applyjob } = useSelector((state) => state.job);

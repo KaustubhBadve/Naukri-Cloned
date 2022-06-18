@@ -7,7 +7,8 @@ import { getJobsApi } from "../../ReduxStore/Jobs/job.action";
 import style from "../JobsRecomndation/jobs.module.css";
 import SearchJob from "./SearchJob";
 import Footer from "../HomePageFooter/Footer";
-import WithSubnavigation from "../Recruter/RecNavbar";
+// import WithSubnavigation from "../Recruter/RecNavbar";
+import WithSubnavigation from '../HomePageNavbar/Navbar'
 
 const SuccessFullapply = () => {
   const { applyjob, data, loading, error } = useSelector((state) => state.job);

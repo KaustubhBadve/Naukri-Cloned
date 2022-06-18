@@ -35,7 +35,7 @@ const Otp = () => {
         setTimeout(function(){
             setloading(false)
            navigate("/confirmation")
-        },8000)
+        },3000)
       }
    }
 
