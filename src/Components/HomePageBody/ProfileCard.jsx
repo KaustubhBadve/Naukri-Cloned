@@ -14,7 +14,7 @@ const ProfileCard = () => {
 			</div>
 			<div className={styles.AboutProfile}>
 				<p className={styles.userName}>{userName}</p>
-				<span className={styles.education}>BCA Computers</span>
+				<span className={styles.education}>B.tech, Computer Science</span>
 				<br />
 				<span>at Indian Institute Of Technology, Delhi</span>
 			</div>

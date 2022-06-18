@@ -18,11 +18,15 @@ import Qrscanner from "./Qrscanner";
 import Jobs from "./Jobs";
 import WithSubnavigation from "../HomePageNavbar/Navbar";
 import Footer from "../HomePageFooter/Footer";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Body = () => {
   const ref = useRef();
   ref.current = false;
-  const [follow, setFollow] = useState(false);
+  const [follow1, setFollow1] = useState(false);
+  const [follow2, setFollow2] = useState(false);
+
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -310,9 +314,9 @@ const Body = () => {
                       bg={"#fff"}
                       color="twitter.600"
                       fontWeight={"medium"}
-                      onClick={() => setFollow(!follow)}
+                      onClick={() => setFollow1(!follow1)}
                     >
-                      {follow ? "Following" : "Follow"}
+                      {follow1 ? "Following" : "Follow"}
                     </Button>
                   </Flex>
                 </Flex>
@@ -346,13 +350,13 @@ const Body = () => {
                       bg={"#fff"}
                       color="twitter.600"
                       fontWeight={"medium"}
-                      onClick={() => setFollow(!follow)}
+                      onClick={() => setFollow2(!follow2)}
                     >
-                      {follow ? "Following" : "Follow"}
+                      {follow2 ? "Following" : "Follow"}
                     </Button>
                   </Flex>
                 </Flex>
-                <Link float={"right"} color="twitter.600" mr={"4"}>
+                <Link float={"right"} color="twitter.600" mr={"4"} onClick={()=>navigate("/recruter")}>
                   View All
                 </Link>
               </Box>

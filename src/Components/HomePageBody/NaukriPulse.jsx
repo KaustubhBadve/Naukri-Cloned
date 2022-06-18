@@ -1,10 +1,11 @@
 import { StarIcon } from '@chakra-ui/icons'
 import { Box, Center, color, Flex, Select, Text, Image, Icon, Button, extendTheme } from '@chakra-ui/react'
-import React from 'react'
+import React, { useState } from 'react'
 // import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 import 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js';
 import 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js';
 import styles from './NaukriPulse.module.css'
+import { Link } from 'react-router-dom';
 
 
 const breakpoints = {
@@ -14,6 +15,15 @@ const breakpoints = {
 const theme = extendTheme({ breakpoints })
 
 const NaukriPulse = () => {
+
+    const [follow1,setFollow1] = useState(false);
+    const [follow2,setFollow2] = useState(false);
+    const [follow3,setFollow3] = useState(false);
+
+    const [like, SetLike] = useState(false)
+    const [dislike, setDislike] = useState(false);
+
+
   return (
     <Box className={styles.naukripulse} w={{base:"100%", sm:"100%"}} h="330px" bg={'#fff'} boxShadow='rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px' p={'4'}>
         <Flex gap={'2'}>
@@ -50,7 +60,7 @@ const NaukriPulse = () => {
                     <Text fontSize={'10px'}>11217</Text>
                     <Text fontSize={'10px'}>reviews</Text>
                 </Flex>
-                <Button w={'100%'} h='6' mt={'4'} bg='twitter.200' color={'twitter.800'} borderRadius='none'>+Follow</Button>
+                <Button w={'100%'} h='6' mt={'4'}  bg={follow1 ? "green.200" :'twitter.200'} color={follow1 ? "green.600" :'twitter.800'} borderRadius='none' onClick={()=>setFollow1(!follow1)}>{follow1 ? "Following" : "+Follow"}</Button>
             </Box>
             <Box p={'3'} w={'24%'} h='100%' boxShadow='rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px'>
                 <Image h={'12'} src='data:image/png;base64,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' />
@@ -61,7 +71,7 @@ const NaukriPulse = () => {
                     <Text fontSize={'10px'}>775</Text>
                     <Text fontSize={'10px'}>reviews</Text>
                 </Flex>
-                <Button w={'100%'} h='6' mt={'4'} bg='twitter.200' color={'twitter.800'} borderRadius='none'>+Follow</Button>
+                <Button w={'100%'} h='6' mt={'4'}  bg={follow2 ? "green.200" :'twitter.200'} color={follow2 ? "green.600" :'twitter.800'} borderRadius='none' onClick={()=>setFollow2(!follow2)}>{follow2 ? "Following" : "+Follow"}</Button>
             </Box>
             <Box p={'2'} w={'24%'} h='100%' boxShadow='rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px'>
                 <Text  fontSize='14px' fontWeight='medium'>Want to work for top companies?</Text>
@@ -77,13 +87,25 @@ const NaukriPulse = () => {
                     <Text fontSize={'10px'}>1495</Text>
                     <Text fontSize={'10px'}>reviews</Text>
                 </Flex>
-                <Button w={'100%'} h='6' mt={'4'} bg='twitter.200' color={'twitter.800'} borderRadius='none'>+Follow</Button>
+                <Button w={'100%'} h='6' mt={'4'} bg={follow3 ? "green.200" :'twitter.200'} color={follow3 ? "green.600" :'twitter.800'} borderRadius='none' onClick={()=>setFollow3(!follow3)}>{follow3 ? "Following" : "+Follow"}</Button>
             </Box>
         </Flex>
         <Flex mt={'4'} gap='3' alignItems={'center'}>
-            <Text fontWeight={'semibold'} color='gray.500' fontSize={'xs'}>Did you find this helpful?</Text>
-            <ion-icon name="thumbs-up-outline"></ion-icon>
-            <ion-icon name="thumbs-down-outline"></ion-icon>
+            {
+                like || dislike ? <div style={{display:"flex", gap:"5px" , alignItems:"center"}}>
+                    <ion-icon style={{color:"green"}} name="checkmark-circle-outline"></ion-icon>
+                    <Text fontSize={'xs'} color='gray.600'>Thank You ! get discovered by</Text>
+                    <Link style={{color:"#1a94da"}} to="#">Updatting Your Profile</Link>
+                </div>
+                :
+                <>
+                <Text fontWeight={'semibold'} color='gray.500' fontSize={'xs'}>Did you find this helpful?</Text>
+                <div style={{display:"flex",gap:"10px"}}>
+                <ion-icon name="thumbs-up-outline" onClick={() => SetLike(true)}></ion-icon>
+                <ion-icon name="thumbs-down-outline" onClick={() => setDislike(true)}></ion-icon>
+                </div>
+                </> 
+            }
         </Flex>
 
     </Box>
