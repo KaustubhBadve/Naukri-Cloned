@@ -30,7 +30,7 @@ The project has been completed within the duration of 4 days. Each of us had sha
 - Responsiveness
 
 
-##Glimpse and screenshots of our cloned website:
+## Glimpse and screenshots of our cloned website:
 **Landing Page**
 ![App Screenshot](https://github.com/KaustubhBadve/Naukri/blob/main/Screenshots/LandingPage.png)
 
