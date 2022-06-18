@@ -79,9 +79,9 @@
     word-spacing: 1px;
 }
 
-@media all and (min-width:421px) and (max-width:720px) {
+@media all and (min-width:401px) and (max-width:720px) {
     .main{
-        height: 640px;
+        height: 700px;
         width: 100%;
         background-color: #2e3339;
     }

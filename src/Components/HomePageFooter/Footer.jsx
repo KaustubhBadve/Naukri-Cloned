@@ -14,7 +14,7 @@ const Footer = () => {
     "Contact Us",
     "FAQs",
     "Summons / Notices",
-    "Grievances",
+    "Grievances", 
     "Fraud Alert",
     "Trust and Safety",
   ];

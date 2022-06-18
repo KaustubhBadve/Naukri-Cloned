@@ -47,7 +47,7 @@ const SliderTest = () => {
       {/* <div className={styles.sliderTrack}>
        
       </div> */}
-      <Slider height="40px" auto speed={3000}>
+      <Slider height="40px" auto speed={1000}>
         {/* {imgArr.map((item, index) => {
           return (
             <div key={index} style={{width:"100%",height:"40px"}}>

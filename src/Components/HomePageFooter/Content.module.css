@@ -17,16 +17,19 @@
     color: #d8d7db;
 }
 
-@media all and (min-width:421px) and (max-width:720px) {
+@media all and (min-width:401px) and (max-width:720px) {
     .info{
         display: grid;
         gap: 2px;
-        font-size: 10px;
+        font-size: 8px;
         color: #9a9ea0;
         cursor: pointer;
     }
-    .divhead{
+    .info p{
         font-size: 10px;
+    }
+    .divhead{
+        font-size: 12px;
         font-weight: 400;
         margin-top: 2px;
     }

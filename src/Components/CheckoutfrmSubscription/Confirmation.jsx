@@ -7,7 +7,7 @@ const Confirmation = () => {
 	const navigate = useNavigate();
 
 	const HandleStart = () => {
-		navigate("/Home");
+		navigate("/subscription");
 	};
 	return (
 		<>

@@ -1,15 +1,17 @@
 .drawermain{
     position: fixed;
-    margin-left: 60%;
-    width: 40%;
+    margin-left: 72%;
+    width: 30%;
     z-index: 1100;
     background-color: white;
     height: 100%;
     padding:20px 40px;
+
 }
 .close{
     text-align: end;
     color: gray;
+    padding-right: 10px;
 }
 
 .close:hover{
@@ -21,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     width: 90%;
 }
 .blue1{
